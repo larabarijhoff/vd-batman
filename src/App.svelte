@@ -72,45 +72,49 @@
     height: 100vh;
     background: #000; 
     position: relative;
-    /* overflow: hidden; */
   }
 
   #brave {
-    width: 350px; /* Tamaño del círculo blanco */
-    height: 350px;
-    position: absolute;
+      width: 350px;
+      height: 350px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
 
   #brave:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #e0dfcd;
-    border-radius: 50%;
-    animation: m 4s .5s both;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #e0dfcd;
+      border-radius: 50%;
+      animation: m 4s .5s both;
   }
 
   #brave:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    clip-path: polygon(52% 10%, 48% 10%, 47% 2%, 45% 16%, 46% 23%, 29% 32%, 26% 39%, 12% 100%, 88% 100%, 74% 39%, 71% 32%, 54% 23%, 55% 16%, 53% 2%);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      clip-path: polygon(52% 10%, 48% 10%, 47% 2%, 45% 16%, 46% 23%, 29% 32%, 26% 39%, 12% 100%, 88% 100%, 74% 39%, 71% 32%, 54% 23%, 55% 16%, 53% 2%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
   }
 
   @keyframes m {
-    0% { transform: translate(-400%, 10%); }
-    40% { transform: translate(-200%, -30%); }
-    60% { transform: translate(-130%, 30%); }
-    95% { transform: translate(-20%, -70%); }
-    100% { transform: translate(calc(50vw - 175px), calc(50vh - 175px)); } /* Centrar el círculo */
+      0% { transform: translate(-400%, 10%); }
+      40% { transform: translate(-200%, -30%); }
+      60% { transform: translate(-130%, 30%); }
+      95% { transform: translate(-20%, -70%); }
+      100% { transform: translate(0%, -5%); } /* Mueve el elemento al centro del #brave */
   }
+
+
   #timeline ul {
     padding: 50px 0;
   }
