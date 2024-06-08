@@ -4,38 +4,152 @@
 
 <body>
   <header>
+    <div id="logo">
+      <img src="./images/iconos/cubo.svg" alt="logo de la empresa">
+    </div>
     <h1>DataGeek</h1>
   </header>
   <main>
     <div id="batman-container">
       <div id="brave"></div>
     </div>
-    <div class="ni-idea">
+
+    <div id="titulo" style="font-size: 40px">
+      <h1>Impacto Cultural de la Trilogía de Christopher Nolan</h1>
+    </div>
+
+    <div id="intro">
+      <h2 style="margin-left: 30px;">Más que una trilogía</h2>
+      <div class="contenido">
+        <div class="imagenes">
+          <img src="./images/posters/bat1.jpg" alt="Poster Batman Begins">
+          <img src="./images/posters/bat2.jpg" alt="Poster The Dark Knight">
+          <img src="./images/posters/bat3gris.jpg" alt="Poster The Dark Knight Rises">
+        </div>
+        <div class="texto">
+          <p>La trilogía de "Batman" dirigida por Christopher Nolan representa un hito no solo en el género 
+            de películas de superhéroes, sino en el cine en general. A través de tres entregas, "Batman Begins", 
+            "The Dark Knight" y "The Dark Knight Rises", Nolan no solo entregó una narrativa coherente y emocionante, 
+            sino que también profundizó en la psique del héroe y los villanos de una manera nunca antes vista en el género. 
+            En "Batman Begins", Nolan nos presenta una exploración meticulosa del origen de Batman, mostrándonos cómo 
+            Bruce Wayne se convierte en el Caballero Oscuro y las motivaciones detrás de su cruzada contra el crimen en 
+            Gotham City. La película no solo nos presenta la transformación física de Bruce, sino también su evolución 
+            emocional y espiritual, abordando temas como el miedo, la venganza y la redención.</p>
+          <br>
+          <p>"The Dark Knight" lleva las exploraciones de Nolan un paso más allá al presentarnos al icónico villano Joker, 
+            interpretado magistralmente por Heath Ledger. La película no solo es una obra maestra en términos de narrativa 
+            y dirección, sino que también plantea preguntas profundas sobre la naturaleza del bien y el mal, la anarquía 
+            y el orden, y la moralidad en un mundo cada vez más caótico. Ledger ganó póstumamente un Oscar por su 
+            interpretación del Joker, cuyo caos y nihilismo sirven como un espejo retorcido de la sociedad contemporánea.</p>
+          <br>
+          <p>Finalmente, "The Dark Knight Rises" concluye la trilogía de manera épica, llevando a Batman a enfrentarse 
+            a su mayor desafío: Bane. La película no solo es una espectacular película de acción, sino que también profundiza 
+            en temas como el sacrificio personal, el renacimiento y la redención. La inclusión de nuevos personajes como 
+            Selina Kyle (Catwoman) y el detective John Blake aporta capas adicionales a la trama, mientras que el regreso 
+            de personajes familiares como Alfred y Lucius Fox añade un sentido de continuidad y cierre emocional.</p>
+          <br>
+          <p>En conjunto, la trilogía de Nolan no solo es un logro técnico y narrativo impresionante, sino también una 
+            reflexión profunda sobre la condición humana y los dilemas morales que enfrentamos en la vida real. 
+            Su influencia se extiende más allá del género de superhéroes, estableciendo un nuevo estándar para el cine 
+            de acción y aventuras, y dejando una marca indeleble en la cultura popular.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="linea">
       <section id="timeline">
-          <h2 class="heading">Responsive Timeline</h2>
+          <h2 class="heading" style="margin-left: 30px;">Timeline de los eventos</h2>
           <ul>
-              <li>
+              <li class="yellow-box">
                   <i></i>
                   <div class="box">
-                    <h3 class="title"><span class="year">2013</span>HTML Language</h3>
+                    <h3 class="title"><span class="year">1988</span>Asesinato de los Wayne</h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
-                        possimus in ipsum iure eaque atque esse commodi molestiae, et odio!
+                      Los padres de Bruce Wayne son asesinados por un ladrón en un callejón. 
+                      Este evento traumático da inicio a su obsesión con la justicia y la lucha contra el crimen en Gotham City.
                     </p>
-                    <button>Read More</button>
+                    <button>Ver Comics</button>
                   </div>
               </li>
   
-              <li>
+              <li class="yellow-box">
                 <i></i>
                 <div class="box">
-                  <h3 class="title"><span class="year">2014</span>HTML Language</h3>
+                  <h3 class="title"><span class="year">1996</span>Desaparición y entrenamiento</h3>
                   <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
-                      possimus in ipsum iure eaque atque esse commodi molestiae, et odio!
+                    Bruce Wayne viaja por el mundo, aprendiendo sobre la criminalidad. 
+                    Es entrenado por Ra's al Ghul y Henri Ducard en la Liga de las Sombras, hasta
+                    que Bruce se niega a ejecutar a un criminal por lo que decide destruir el templo de la Liga
                   </p>
-                  <button>Read More</button>
+                  <button>Ver Comics</button>
                 </div>
+            </li>
+
+            <li class="yellow-box">
+              <i></i>
+              <div class="box">
+                <h3 class="title"><span class="year">2004</span>Regreso a Gotham como Batman</h3>
+                <p>
+                  Bruce regresa a Gotham y comienza a desarrollar su equipo de Batman.
+                  Aparece como Batman por primera vez interrumpiendo un envío de drogas de Carmine Falcone. Posteriormente, se enfreta
+                  al Espantapájaros y a Ra's al Ghul. Finalmente, una carta del Joker sugiere la llegada de un nuevo villano a Gotham.
+                </p>
+                <button>Ver Comics</button>
+              </div>
+            </li>
+
+            <li class="blue-box">
+              <i></i>
+              <div class="box">
+                <h3 class="title"><span class="year">2006</span>Aparicón del Joker</h3>
+                <p>
+                  El Joker comienza una serie de robos y actos de terrorismo en Gotham, 
+                  desafiando la autoridad de la mafia y la policía. Batman se alía al fiscal de distrito Harvey Dent.
+                  El Joker amenaza con matar a personas cada día hasta que Batman revele su identidad. 
+                  Harvey Dent se declara como Batman para proteger a Bruce.
+                </p>
+                <button>Ver Comics</button>
+              </div>
+            </li>
+
+            <li class="blue-box">
+              <i></i>
+              <div class="box">
+                <h3 class="title"><span class="year">2007</span>Lucha contra Joker y Dos Caras</h3>
+                <p>
+                    Explosivos del Joker matan a Rachel Dawes y dejan a Harvey desfigurado. Se convierte en Dos Caras 
+                    y comienza una vendetta personal contra aquellos que considera responsables de la muerte de Rachel.
+                    Batman captura al Joker y enfrenta a Dos Caras, resultando en la muerte de éste último.
+                    Batman asume la culpa de los crímenes de Dos Caras y se convierte en un fugitivo.
+                </p>
+                <button>Ver Comics</button>
+              </div>
+            </li>
+
+            <li class="gray-box">
+              <i></i>
+              <div class="box">
+                <h3 class="title"><span class="year">2015</span>Lucha contra Bane</h3>
+                <p>
+                  Gotham ha disfrutado de una relativa paz gracias a la Ley Dent de tolerancia cero a los criminales, y Bruce Wayne
+                  se mantiene oculto en su mansión. Bane aparece en Gotham, llevando a cabo una serie de ataques y liberando a los prisioneros de Blackgate.
+                  Batman regresa y tiene su primera confrontación con Bane, resultando gravemente malherido. Tras su recuperación, Batman, derrota a Bane y salva
+                  a Gotham de una explosión nuclear pero a costa de su propia vida.
+                </p>
+                <button>Ver Comics</button>
+              </div>
+            </li>
+
+            <li class="gray-box">
+              <i></i>
+              <div class="box">
+                <h3 class="title"><span class="year">2016</span>Bruce encuentra la paz</h3>
+                <p>
+                  Bruce, con Batman supuestamente muerto, deja a Gotham y se retira a una vida tranquila 
+                  y anónima en Italia junto con Selina Kyle, Catwoman.
+                </p>
+                <button>Ver Comics</button>
+              </div>
             </li>
           </ul>
       </section>
@@ -80,18 +194,22 @@
     }
 
   header {
-    background: #141414;
+    background: #1F4389;
     color: #fff;
     text-align: center;
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  #logo{
+    padding-right: 0.5%;
+    padding-top: 0.4%;
   }
 
   #batman-container {
@@ -140,17 +258,65 @@
       40% { transform: translate(-200%, -30%); }
       60% { transform: translate(-130%, 30%); }
       95% { transform: translate(-20%, -70%); }
-      100% { transform: translate(0%, -5%); } /* Mueve el elemento al centro del #brave */
+      100% { transform: translate(0%, -5%); } 
+  }
+
+  #titulo{
+    display: flex; 
+    height: 100vh;
+    width: 100vw;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center;
+  
+  }
+
+  #intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenido {
+    display: flex;
+  }
+
+  .imagenes {
+    display: flex;
+    margin-left: 30px;
+    height: 100%;
+    width: 50%;
+  }
+
+  .imagenes img {
+    width: 230px; 
+    height: 350px;
+    margin-right: 10px; 
+  }
+
+  .texto {
+    margin-left: 30px;
+    margin-right: 30px;
+    align-self: center; 
+    text-align: justify;
+  }
+
+
+  #timeline ul li.yellow-box .box .title {
+    background-color: #BC823A;
+  }
+  #timeline ul li.blue-box .box .title{
+    background-color: #195664;
+  }
+  #timeline ul li.gray-box .box .title{
+      background-color: #86959C;
   }
 
   #timeline .title {
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 1rem 0rem 1rem 0.7rem;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     color: #fff;
     font-size: 1.3rem;
-    background-color: #3134de;
   }
 
   #timeline .year {
@@ -163,8 +329,10 @@
   }
 
   #timeline p{
-    padding: 1rem 0 1rem 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     color: #000;
+    text-align: justify;
   }
 
   #timeline button{
@@ -180,7 +348,7 @@
   }
 
   #timeline button:hover{
-    background-color: #17202a;
+    background-color: #E23720;
     color: #fff;
   }
 
@@ -194,7 +362,7 @@
     width: 7px;
     margin: 0 auto;
     padding-top: 50px;
-    background-color: #586bd6;
+    background-color: #1F4389;
   }
 
   #timeline ul li .box {
@@ -222,7 +390,7 @@
   }
   */
 
-  #timeline ul li i{
+  #timeline ul li i {
     position: absolute;
     left: 50%;
     top: 20%;
@@ -233,8 +401,21 @@
     border-radius: 50%;
   }
 
+  #timeline ul li.yellow-box i {
+    background-color: #E6D1A4;
+  }
+       
+  #timeline ul li.blue-box i {
+      background-color: #C0E5E5; 
+  }
+
+  #timeline ul li.gray-box i {
+      background-color: #E1E5E4; 
+  }
+
+
   /*pico*/
-  #timeline .box:before {
+  #timeline ul li .box:before {
     content: "";
     position: absolute;
     top: 5px;
@@ -242,19 +423,43 @@
     height: 0;
     border-style: solid;
   }
-  #timeline ul li:nth-child(odd) .box:before {
-    left: -15px;
-    border-width: 8px 16px 8px 0;
-    border-color: transparent #3134de transparent transparent;
+
+  #timeline ul li.yellow-box:nth-child(odd) .box:before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #BC823A transparent transparent;
   }
-  #timeline ul li:nth-child(even) .box:before {
-    right: -15px;
-    border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent #3134de;
+  #timeline ul li.yellow-box:nth-child(even) .box:before {
+      right: -15px;
+      border-width: 8px 0 8px 16px;
+      border-color: transparent transparent transparent #BC823A;
   }
 
+  #timeline ul li.blue-box:nth-child(odd) .box:before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #195664 transparent transparent;
+  }
+  #timeline ul li.blue-box:nth-child(even) .box:before {
+      right: -15px;
+      border-width: 8px 0 8px 16px;
+      border-color: transparent transparent transparent #195664;
+  }
+
+  #timeline ul li.gray-box:nth-child(odd) .box:before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #86959C transparent transparent;
+  }
+  #timeline ul li.gray-box:nth-child(even) .box:before {
+      right: -15px;
+      border-width: 8px 0 8px 16px;
+      border-color: transparent transparent transparent #86959C;
+  }
+
+
   footer {
-    background-color: rgba(14, 14, 14, 0.545);
+    background-color: #1F4389;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); 
     margin-top: 50px;
   }
