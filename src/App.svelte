@@ -21,7 +21,7 @@
     </div>
 
     <div id="intro">
-      <h2 style="margin-left: 30px;">Más que una trilogía</h2>
+      <h2 class="heading">Más que una trilogía</h2>
       <div class="contenido">
         <div class="imagenes">
           <img src="./images/posters/bat1.jpg" alt="Poster Batman Begins">
@@ -60,7 +60,7 @@
 
     <div class="linea">
       <section id="timeline">
-          <h2 class="heading" style="margin-left: 30px;">Timeline de los eventos</h2>
+          <h2 class="heading">Timeline de los eventos</h2>
           <ul>
               <li class="yellow-box">
                   <i></i>
@@ -155,6 +155,37 @@
             </li>
           </ul>
       </section>
+    </div>
+
+    <div class="mapa-recaudacion">
+      <h2 class="heading">Recaudación de la trilogía</h2>
+      <div class="texto">
+        <p>
+          La trilogía del Caballero de la Noche no solo redefinió el género de los superhéroes, 
+          sino que también alcanzó un éxito monumental a nivel global. Este mapa muestra 
+          la suma de las ganancias totales de las tres películas en cada país, ofreciendo 
+          una visión clara del alcance global del éxito de la trilogía.
+        </p>
+      <div class="mapa">
+        <iframe title="Recaudación de la Trilogía del Caballero de la Noche" aria-label="Map" id="datawrapper-chart-RTged" src="https://datawrapper.dwcdn.net/RTged/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="367" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+      </div>
+      </div>
+    </div>
+
+    <div class="comparacion-dc">
+      <h2 class="heading">Influencias en el Universo Cinematográfico de DC</h2>
+      <div class="texto">
+        <p>
+          La trilogía del Caballero de la Noche también estableció un nuevo estándar para las producciones 
+          cinematográficas de DC. Su éxito monumental no solo se reflejó en taquilla, sino que también 
+          influyó profundamente en la dirección creativa y narrativa de las películas que le siguieron.
+        </p>
+        <div class="grafico">
+          <iframe title="Recaudación de las películas de DC" aria-label="Scatter Plot" id="datawrapper-chart-zbshC" src="https://datawrapper.dwcdn.net/zbshC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="389" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+          </script>
+        </div>
+      </div>
     </div>
   </main>
   
@@ -281,6 +312,10 @@
   #intro {
     display: flex;
     flex-direction: column;
+  }
+
+  .heading {
+    margin-left: 30px;
   }
 
   .contenido {
@@ -464,6 +499,9 @@
       border-color: transparent transparent transparent #86959C;
   }
 
+  #datawrapper-chart-RTged, #datawrapper-chart-zbshC {
+    background-color: white; /* Cambia esto al color de fondo deseado */
+  }
 
   footer {
     background-color: #1F4389;
