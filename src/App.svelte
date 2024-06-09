@@ -1,7 +1,9 @@
 <script>
 
 </script>
-
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
 <body>
   <header>
     <div id="logo">
@@ -175,7 +177,11 @@
         <img src="./images/iconos/twitter.svg" alt="Twitter">
         <img src="./images/iconos/whatsapp.svg" alt="Whatsapp">
       </div>
-      <p style="font-size: 10px; color:gray; margin-right:30px; margin-left:30px;">At our company, we are committed to ensuring the best personalized experience for the enjoyment of multimedia content. We deeply appreciate your trust in our service. Rest assured, we prioritize the protection of your data, ensuring that it remains private and secure. Your privacy is of utmost importance to us as we strive to provide a seamless and enriching entertainment experience tailored to your preferences.</p>
+      <p style="font-size: 10px; color:gray; margin-right:30px; margin-left:30px; font-family: 'Open Sans', sans-serif;">At DataGeek, 
+        we are passionate about sharing interesting and relevant content about geek culture. 
+        We strive to provide you with the best possible experience, offering high-quality articles, 
+        news, and analyses. We deeply appreciate your trust and support in our work. Our commitment is 
+        to deliver accurate and entertaining information, enriching your knowledge and enjoyment of the geek world.</p>
       <p style="color: gray" class="copyright">&copy; 2024 DataGeek</p>
     </div>
   </footer>
@@ -191,6 +197,7 @@
       background: #000;
       color: #fff;
       overflow-x: hidden;
+      font-family: 'Bebas Neue', sans-serif;
     }
 
   header {
@@ -467,7 +474,6 @@
     color: white;
     padding-top: 20px;
     text-align: center;
-    font-family: 'Helvetica';
     letter-spacing: 2px;
     display: flex;
     flex-direction: column;
