@@ -1,87 +1,87 @@
 <script>
 
+  import { onMount } from "svelte";
+    let visible = false;
+
+    onMount(() => {
+      setTimeout(() => {
+        visible = true;
+      }, 5000); // 3000 ms = 3 segundos
+  });
 </script>
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
+
+  
+<main>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <header class:visible={visible}>
     <div id="logo">
       <img src="./images/iconos/cubo.svg" alt="logo de la empresa">
     </div>
     <h1>DataGeek</h1>
   </header>
-  <main>
-    <div id="batman-container">
-      <div id="brave"></div>
-    </div>
 
-    <div id="titulo" style="font-size: 40px">
-      <h1>Impacto Cultural de la Trilogía de Christopher Nolan</h1>
-    </div>
+  <div id="titulo" style="font-size: 40px" class:visible={visible}>
+    <h1> La trayectoria de Batman: un ícono en la cultura geek</h1>
+  </div>
 
-    <div id="intro">
-      <h2 class="heading">Más que una trilogía</h2>
-      <div class="contenido">
-        <div class="imagenes">
-          <img src="./images/posters/bat1.jpg" alt="Poster Batman Begins">
-          <img src="./images/posters/bat2.jpg" alt="Poster The Dark Knight">
-          <img src="./images/posters/bat3gris.jpg" alt="Poster The Dark Knight Rises">
-        </div>
-        <div class="texto">
-          <p>La trilogía de "Batman" dirigida por Christopher Nolan representa un hito no solo en el género 
-            de películas de superhéroes, sino en el cine en general. A través de tres entregas, "Batman Begins", 
-            "The Dark Knight" y "The Dark Knight Rises", Nolan no solo entregó una narrativa coherente y emocionante, 
-            sino que también profundizó en la psique del héroe y los villanos de una manera nunca antes vista en el género. 
-            En "Batman Begins", Nolan nos presenta una exploración meticulosa del origen de Batman, mostrándonos cómo 
-            Bruce Wayne se convierte en el Caballero Oscuro y las motivaciones detrás de su cruzada contra el crimen en 
-            Gotham City. La película no solo nos presenta la transformación física de Bruce, sino también su evolución 
-            emocional y espiritual, abordando temas como el miedo, la venganza y la redención.</p>
-          <br>
-          <p>"The Dark Knight" lleva las exploraciones de Nolan un paso más allá al presentarnos al icónico villano Joker, 
-            interpretado magistralmente por Heath Ledger. La película no solo es una obra maestra en términos de narrativa 
-            y dirección, sino que también plantea preguntas profundas sobre la naturaleza del bien y el mal, la anarquía 
-            y el orden, y la moralidad en un mundo cada vez más caótico. Ledger ganó póstumamente un Oscar por su 
-            interpretación del Joker, cuyo caos y nihilismo sirven como un espejo retorcido de la sociedad contemporánea.</p>
-          <br>
-          <p>Finalmente, "The Dark Knight Rises" concluye la trilogía de manera épica, llevando a Batman a enfrentarse 
-            a su mayor desafío: Bane. La película no solo es una espectacular película de acción, sino que también profundiza 
-            en temas como el sacrificio personal, el renacimiento y la redención. La inclusión de nuevos personajes como 
-            Selina Kyle (Catwoman) y el detective John Blake aporta capas adicionales a la trama, mientras que el regreso 
-            de personajes familiares como Alfred y Lucius Fox añade un sentido de continuidad y cierre emocional.</p>
-          <br>
-          <p>En conjunto, la trilogía de Nolan no solo es un logro técnico y narrativo impresionante, sino también una 
-            reflexión profunda sobre la condición humana y los dilemas morales que enfrentamos en la vida real. 
-            Su influencia se extiende más allá del género de superhéroes, estableciendo un nuevo estándar para el cine 
-            de acción y aventuras, y dejando una marca indeleble en la cultura popular.</p>
-        </div>
+  <div id="batman-container">
+    <div id="brave"></div>
+  </div>
+
+  <div id="intro">
+    <h2 class="heading">Más que una trilogía</h2>
+    <div class="contenido">
+      <div class="imagenes">
+        <img src="./images/posters/bat1.jpg" alt="Poster Batman Begins">
+        <img src="./images/posters/bat2.jpg" alt="Poster The Dark Knight">
+        <img src="./images/posters/bat3gris.jpg" alt="Poster The Dark Knight Rises">
+      </div>
+      <div class="texto">
+        <p>La trilogía de "Batman" dirigida por Christopher Nolan representa un hito no solo en el género 
+          de películas de superhéroes, sino en el cine en general. A través de tres entregas, "Batman Begins", 
+          "The Dark Knight" y "The Dark Knight Rises", Nolan no solo entregó una narrativa coherente y emocionante, 
+          sino que también profundizó en la psique del héroe y los villanos de una manera nunca antes vista en el género. 
+          En "Batman Begins", Nolan nos presenta una exploración meticulosa del origen de Batman, mostrándonos cómo 
+          Bruce Wayne se convierte en el Caballero Oscuro y las motivaciones detrás de su cruzada contra el crimen en 
+          Gotham City. La película no solo nos presenta la transformación física de Bruce, sino también su evolución 
+          emocional y espiritual, abordando temas como el miedo, la venganza y la redención.</p>
+        <br>
+        <p>"The Dark Knight" lleva las exploraciones de Nolan un paso más allá al presentarnos al icónico villano Joker, 
+          interpretado magistralmente por Heath Ledger. La película no solo es una obra maestra en términos de narrativa 
+          y dirección, sino que también plantea preguntas profundas sobre la naturaleza del bien y el mal, la anarquía 
+          y el orden, y la moralidad en un mundo cada vez más caótico. Ledger ganó póstumamente un Oscar por su 
+          interpretación del Joker, cuyo caos y nihilismo sirven como un espejo retorcido de la sociedad contemporánea.</p>
+        <br>
+        <p>Finalmente, "The Dark Knight Rises" concluye la trilogía de manera épica, llevando a Batman a enfrentarse 
+          a su mayor desafío: Bane. La película no solo es una espectacular película de acción, sino que también profundiza 
+          en temas como el sacrificio personal, el renacimiento y la redención. La inclusión de nuevos personajes como 
+          Selina Kyle (Catwoman) y el detective John Blake aporta capas adicionales a la trama, mientras que el regreso 
+          de personajes familiares como Alfred y Lucius Fox añade un sentido de continuidad y cierre emocional.</p>
+        <br>
+        <p>En conjunto, la trilogía de Nolan no solo es un logro técnico y narrativo impresionante, sino también una 
+          reflexión profunda sobre la condición humana y los dilemas morales que enfrentamos en la vida real. 
+          Su influencia se extiende más allá del género de superhéroes, estableciendo un nuevo estándar para el cine 
+          de acción y aventuras, y dejando una marca indeleble en la cultura popular.</p>
       </div>
     </div>
+  </div>
 
-    <div class="linea">
-      <section id="timeline">
-          <h2 class="heading">Timeline de los eventos</h2>
-          <ul>
-              <li class="yellow-box">
-                  <i></i>
-                  <div class="box">
-                    <h3 class="title"><span class="year">1988</span>Asesinato de los Wayne</h3>
-                    <p>
-                      Los padres de Bruce Wayne son asesinados por un ladrón en un callejón. 
-                      Este evento traumático da inicio a su obsesión con la justicia y la lucha contra el crimen en Gotham City.
-                    </p>
-                    <button>Ver Comics</button>
-                  </div>
-              </li>
-  
-              <li class="yellow-box">
+  <div class="linea">
+    <section id="timeline">
+        <h2 class="heading">Timeline de los eventos</h2>
+        <ul>
+            <li class="yellow-box">
                 <i></i>
                 <div class="box">
-                  <h3 class="title"><span class="year">1996</span>Desaparición y entrenamiento</h3>
+                  <h3 class="title"><span class="year">1988</span>Asesinato de los Wayne</h3>
                   <p>
-                    Bruce Wayne viaja por el mundo, aprendiendo sobre la criminalidad. 
-                    Es entrenado por Ra's al Ghul y Henri Ducard en la Liga de las Sombras, hasta
-                    que Bruce se niega a ejecutar a un criminal por lo que decide destruir el templo de la Liga
+                    Los padres de Bruce Wayne son asesinados por un ladrón en un callejón. 
+                    Este evento traumático da inicio a su obsesión con la justicia y la lucha contra el crimen en Gotham City.
                   </p>
                   <button>Ver Comics</button>
                 </div>
@@ -90,104 +90,116 @@
             <li class="yellow-box">
               <i></i>
               <div class="box">
-                <h3 class="title"><span class="year">2004</span>Regreso a Gotham como Batman</h3>
+                <h3 class="title"><span class="year">1996</span>Desaparición y entrenamiento</h3>
                 <p>
-                  Bruce regresa a Gotham y comienza a desarrollar su equipo de Batman.
-                  Aparece como Batman por primera vez interrumpiendo un envío de drogas de Carmine Falcone. Posteriormente, se enfreta
-                  al Espantapájaros y a Ra's al Ghul. Finalmente, una carta del Joker sugiere la llegada de un nuevo villano a Gotham.
+                  Bruce Wayne viaja por el mundo, aprendiendo sobre la criminalidad. 
+                  Es entrenado por Ra's al Ghul y Henri Ducard en la Liga de las Sombras, hasta
+                  que Bruce se niega a ejecutar a un criminal por lo que decide destruir el templo de la Liga
                 </p>
                 <button>Ver Comics</button>
               </div>
-            </li>
+          </li>
 
-            <li class="blue-box">
-              <i></i>
-              <div class="box">
-                <h3 class="title"><span class="year">2006</span>Aparicón del Joker</h3>
-                <p>
-                  El Joker comienza una serie de robos y actos de terrorismo en Gotham, 
-                  desafiando la autoridad de la mafia y la policía. Batman se alía al fiscal de distrito Harvey Dent.
-                  El Joker amenaza con matar a personas cada día hasta que Batman revele su identidad. 
-                  Harvey Dent se declara como Batman para proteger a Bruce.
-                </p>
-                <button>Ver Comics</button>
-              </div>
-            </li>
+          <li class="yellow-box">
+            <i></i>
+            <div class="box">
+              <h3 class="title"><span class="year">2004</span>Regreso a Gotham como Batman</h3>
+              <p>
+                Bruce regresa a Gotham y comienza a desarrollar su equipo de Batman.
+                Aparece como Batman por primera vez interrumpiendo un envío de drogas de Carmine Falcone. Posteriormente, se enfreta
+                al Espantapájaros y a Ra's al Ghul. Finalmente, una carta del Joker sugiere la llegada de un nuevo villano a Gotham.
+              </p>
+              <button>Ver Comics</button>
+            </div>
+          </li>
 
-            <li class="blue-box">
-              <i></i>
-              <div class="box">
-                <h3 class="title"><span class="year">2007</span>Lucha contra Joker y Dos Caras</h3>
-                <p>
-                    Explosivos del Joker matan a Rachel Dawes y dejan a Harvey desfigurado. Se convierte en Dos Caras 
-                    y comienza una vendetta personal contra aquellos que considera responsables de la muerte de Rachel.
-                    Batman captura al Joker y enfrenta a Dos Caras, resultando en la muerte de éste último.
-                    Batman asume la culpa de los crímenes de Dos Caras y se convierte en un fugitivo.
-                </p>
-                <button>Ver Comics</button>
-              </div>
-            </li>
+          <li class="blue-box">
+            <i></i>
+            <div class="box">
+              <h3 class="title"><span class="year">2006</span>Aparicón del Joker</h3>
+              <p>
+                El Joker comienza una serie de robos y actos de terrorismo en Gotham, 
+                desafiando la autoridad de la mafia y la policía. Batman se alía al fiscal de distrito Harvey Dent.
+                El Joker amenaza con matar a personas cada día hasta que Batman revele su identidad. 
+                Harvey Dent se declara como Batman para proteger a Bruce.
+              </p>
+              <button>Ver Comics</button>
+            </div>
+          </li>
 
-            <li class="gray-box">
-              <i></i>
-              <div class="box">
-                <h3 class="title"><span class="year">2015</span>Lucha contra Bane</h3>
-                <p>
-                  Gotham ha disfrutado de una relativa paz gracias a la Ley Dent de tolerancia cero a los criminales, y Bruce Wayne
-                  se mantiene oculto en su mansión. Bane aparece en Gotham, llevando a cabo una serie de ataques y liberando a los prisioneros de Blackgate.
-                  Batman regresa y tiene su primera confrontación con Bane, resultando gravemente malherido. Tras su recuperación, Batman, derrota a Bane y salva
-                  a Gotham de una explosión nuclear pero a costa de su propia vida.
-                </p>
-                <button>Ver Comics</button>
-              </div>
-            </li>
+          <li class="blue-box">
+            <i></i>
+            <div class="box">
+              <h3 class="title"><span class="year">2007</span>Lucha contra Joker y Dos Caras</h3>
+              <p>
+                  Explosivos del Joker matan a Rachel Dawes y dejan a Harvey desfigurado. Se convierte en Dos Caras 
+                  y comienza una vendetta personal contra aquellos que considera responsables de la muerte de Rachel.
+                  Batman captura al Joker y enfrenta a Dos Caras, resultando en la muerte de éste último.
+                  Batman asume la culpa de los crímenes de Dos Caras y se convierte en un fugitivo.
+              </p>
+              <button>Ver Comics</button>
+            </div>
+          </li>
 
-            <li class="gray-box">
-              <i></i>
-              <div class="box">
-                <h3 class="title"><span class="year">2016</span>Bruce encuentra la paz</h3>
-                <p>
-                  Bruce, con Batman supuestamente muerto, deja a Gotham y se retira a una vida tranquila 
-                  y anónima en Italia junto con Selina Kyle, Catwoman.
-                </p>
-                <button>Ver Comics</button>
-              </div>
-            </li>
-          </ul>
-      </section>
+          <li class="gray-box">
+            <i></i>
+            <div class="box">
+              <h3 class="title"><span class="year">2015</span>Lucha contra Bane</h3>
+              <p>
+                Gotham ha disfrutado de una relativa paz gracias a la Ley Dent de tolerancia cero a los criminales, y Bruce Wayne
+                se mantiene oculto en su mansión. Bane aparece en Gotham, llevando a cabo una serie de ataques y liberando a los prisioneros de Blackgate.
+                Batman regresa y tiene su primera confrontación con Bane, resultando gravemente malherido. Tras su recuperación, Batman, derrota a Bane y salva
+                a Gotham de una explosión nuclear pero a costa de su propia vida.
+              </p>
+              <button>Ver Comics</button>
+            </div>
+          </li>
+
+          <li class="gray-box">
+            <i></i>
+            <div class="box">
+              <h3 class="title"><span class="year">2016</span>Bruce encuentra la paz</h3>
+              <p>
+                Bruce, con Batman supuestamente muerto, deja a Gotham y se retira a una vida tranquila 
+                y anónima en Italia junto con Selina Kyle, Catwoman.
+              </p>
+              <button>Ver Comics</button>
+            </div>
+          </li>
+        </ul>
+    </section>
+  </div>
+
+  <div class="mapa-recaudacion">
+    <h2 class="heading">Recaudación de la trilogía</h2>
+    <div class="texto">
+      <p>
+        La trilogía del Caballero de la Noche no solo redefinió el género de los superhéroes, 
+        sino que también alcanzó un éxito monumental a nivel global. Este mapa muestra 
+        la suma de las ganancias totales de las tres películas en cada país, ofreciendo 
+        una visión clara del alcance global del éxito de la trilogía.
+      </p>
+    <div class="mapa">
+      <iframe title="Recaudación de la Trilogía del Caballero de la Noche" aria-label="Map" id="datawrapper-chart-RTged" src="https://datawrapper.dwcdn.net/RTged/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="367" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+      </script>
     </div>
+    </div>
+  </div>
 
-    <div class="mapa-recaudacion">
-      <h2 class="heading">Recaudación de la trilogía</h2>
-      <div class="texto">
-        <p>
-          La trilogía del Caballero de la Noche no solo redefinió el género de los superhéroes, 
-          sino que también alcanzó un éxito monumental a nivel global. Este mapa muestra 
-          la suma de las ganancias totales de las tres películas en cada país, ofreciendo 
-          una visión clara del alcance global del éxito de la trilogía.
-        </p>
-      <div class="mapa">
-        <iframe title="Recaudación de la Trilogía del Caballero de la Noche" aria-label="Map" id="datawrapper-chart-RTged" src="https://datawrapper.dwcdn.net/RTged/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="367" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+  <div class="comparacion-dc">
+    <h2 class="heading">Influencias en el Universo Cinematográfico de DC</h2>
+    <div class="texto">
+      <p>
+        La trilogía del Caballero de la Noche también estableció un nuevo estándar para las producciones 
+        cinematográficas de DC. Su éxito monumental no solo se reflejó en taquilla, sino que también 
+        influyó profundamente en la dirección creativa y narrativa de las películas que le siguieron.
+      </p>
+      <div class="grafico">
+        <iframe title="Recaudación de las películas de DC" aria-label="Scatter Plot" id="datawrapper-chart-zbshC" src="https://datawrapper.dwcdn.net/zbshC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="389" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
         </script>
       </div>
-      </div>
     </div>
-
-    <div class="comparacion-dc">
-      <h2 class="heading">Influencias en el Universo Cinematográfico de DC</h2>
-      <div class="texto">
-        <p>
-          La trilogía del Caballero de la Noche también estableció un nuevo estándar para las producciones 
-          cinematográficas de DC. Su éxito monumental no solo se reflejó en taquilla, sino que también 
-          influyó profundamente en la dirección creativa y narrativa de las películas que le siguieron.
-        </p>
-        <div class="grafico">
-          <iframe title="Recaudación de las películas de DC" aria-label="Scatter Plot" id="datawrapper-chart-zbshC" src="https://datawrapper.dwcdn.net/zbshC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="389" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-          </script>
-        </div>
-      </div>
-    </div>
-  </main>
+  </div>
   
   <footer>
     <div class="footer-content">
@@ -216,23 +228,26 @@
       <p style="color: gray" class="copyright">&copy; 2024 DataGeek</p>
     </div>
   </footer>
-</body>
+
+</main>
+
 
 
 
 <style>
-
-  body {
-      margin: 0;
-      padding: 0;
-      background: #000;
-      color: #fff;
-      overflow-x: hidden;
-      font-family: 'Bebas Neue', sans-serif;
-    }
-
+  h1{
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  p{
+    color: #fff;
+    font-family: 'Comic Neue', sans-serif;
+  }
+  h3{
+    font-family: 'Bebas Neue', sans-serif;
+  }
   header {
-    background: #1F4389;
+    background-color: rgb(0, 12, 38,1);
     color: #fff;
     text-align: center;
     position: fixed;
@@ -243,39 +258,62 @@
     align-items: center;
     z-index: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  header.visible {
+    opacity: 1;
   }
 
   #logo{
     padding-right: 0.5%;
-    padding-top: 0.4%;
+    padding-top: 0.6%;
+  }
+
+  #titulo{
+    display: flex; 
+    width: 100vw;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center;
+    margin-top: 7%;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 0s, opacity 0s; /* Transición instantánea */
+  }
+  #titulo.visible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 0.5s, opacity 0.5s; /* Transición de 0.5 segundos */
   }
 
   #batman-container {
     width: 100vw;
-    height: 100vh;
+    height: 58vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    }
+    /* margin-top: 5%; */
+  }
 
   #brave {
-      width: 350px;
-      height: 350px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   #brave:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #e0dfcd;
-      border-radius: 50%;
-      animation: m 4s .5s both;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 50%;
+    animation: m 4s .5s both;
   }
 
   #brave:after {
@@ -299,15 +337,7 @@
       100% { transform: translate(0%, -5%); } 
   }
 
-  #titulo{
-    display: flex; 
-    height: 100vh;
-    width: 100vw;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    text-align: center;
   
-  }
 
   #intro {
     display: flex;
