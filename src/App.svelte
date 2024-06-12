@@ -1,6 +1,6 @@
 <script>
-
-  import { onMount } from "svelte";
+  import { onMount} from "svelte";
+    
     let visible = false;
 
     onMount(() => {
@@ -18,9 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   </head>
+  
   <header class:visible={visible}>
     <div id="logo">
-      <img src="./images/iconos/cubo.svg" alt="logo de la empresa">
+      <img src="./public/images/iconos/cubo.svg" alt="logo de la empresa">
     </div>
     <h1>DataGeek</h1>
   </header>
@@ -33,43 +34,13 @@
     <div id="brave"></div>
   </div>
 
-  <div id="intro">
-    <h2 class="heading">Más que una trilogía</h2>
-    <div class="contenido">
-      <div class="imagenes">
-        <img src="./images/posters/bat1.jpg" alt="Poster Batman Begins">
-        <img src="./images/posters/bat2.jpg" alt="Poster The Dark Knight">
-        <img src="./images/posters/bat3gris.jpg" alt="Poster The Dark Knight Rises">
-      </div>
-      <div class="texto">
-        <p>La trilogía de "Batman" dirigida por Christopher Nolan representa un hito no solo en el género 
-          de películas de superhéroes, sino en el cine en general. A través de tres entregas, "Batman Begins", 
-          "The Dark Knight" y "The Dark Knight Rises", Nolan no solo entregó una narrativa coherente y emocionante, 
-          sino que también profundizó en la psique del héroe y los villanos de una manera nunca antes vista en el género. 
-          En "Batman Begins", Nolan nos presenta una exploración meticulosa del origen de Batman, mostrándonos cómo 
-          Bruce Wayne se convierte en el Caballero Oscuro y las motivaciones detrás de su cruzada contra el crimen en 
-          Gotham City. La película no solo nos presenta la transformación física de Bruce, sino también su evolución 
-          emocional y espiritual, abordando temas como el miedo, la venganza y la redención.</p>
-        <br>
-        <p>"The Dark Knight" lleva las exploraciones de Nolan un paso más allá al presentarnos al icónico villano Joker, 
-          interpretado magistralmente por Heath Ledger. La película no solo es una obra maestra en términos de narrativa 
-          y dirección, sino que también plantea preguntas profundas sobre la naturaleza del bien y el mal, la anarquía 
-          y el orden, y la moralidad en un mundo cada vez más caótico. Ledger ganó póstumamente un Oscar por su 
-          interpretación del Joker, cuyo caos y nihilismo sirven como un espejo retorcido de la sociedad contemporánea.</p>
-        <br>
-        <p>Finalmente, "The Dark Knight Rises" concluye la trilogía de manera épica, llevando a Batman a enfrentarse 
-          a su mayor desafío: Bane. La película no solo es una espectacular película de acción, sino que también profundiza 
-          en temas como el sacrificio personal, el renacimiento y la redención. La inclusión de nuevos personajes como 
-          Selina Kyle (Catwoman) y el detective John Blake aporta capas adicionales a la trama, mientras que el regreso 
-          de personajes familiares como Alfred y Lucius Fox añade un sentido de continuidad y cierre emocional.</p>
-        <br>
-        <p>En conjunto, la trilogía de Nolan no solo es un logro técnico y narrativo impresionante, sino también una 
-          reflexión profunda sobre la condición humana y los dilemas morales que enfrentamos en la vida real. 
-          Su influencia se extiende más allá del género de superhéroes, estableciendo un nuevo estándar para el cine 
-          de acción y aventuras, y dejando una marca indeleble en la cultura popular.</p>
-      </div>
-    </div>
+  <div class = "dialogo-bruce"> 
+    <img src="./public/images/batman-intro.png" alt="Presentacion Batman" class ="background">
+    <img src="./public/images/batman-intro-dialogo.svg" alt="Presentacion Batman Dialogo" class = "overlay">
+    
   </div>
+
+  
 
   <div class="linea">
     <section id="timeline">
@@ -170,36 +141,7 @@
     </section>
   </div>
 
-  <div class="mapa-recaudacion">
-    <h2 class="heading">Recaudación de la trilogía</h2>
-    <div class="texto">
-      <p>
-        La trilogía del Caballero de la Noche no solo redefinió el género de los superhéroes, 
-        sino que también alcanzó un éxito monumental a nivel global. Este mapa muestra 
-        la suma de las ganancias totales de las tres películas en cada país, ofreciendo 
-        una visión clara del alcance global del éxito de la trilogía.
-      </p>
-    <div class="mapa">
-      <iframe title="Recaudación de la Trilogía del Caballero de la Noche" aria-label="Map" id="datawrapper-chart-RTged" src="https://datawrapper.dwcdn.net/RTged/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="367" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-      </script>
-    </div>
-    </div>
-  </div>
 
-  <div class="comparacion-dc">
-    <h2 class="heading">Influencias en el Universo Cinematográfico de DC</h2>
-    <div class="texto">
-      <p>
-        La trilogía del Caballero de la Noche también estableció un nuevo estándar para las producciones 
-        cinematográficas de DC. Su éxito monumental no solo se reflejó en taquilla, sino que también 
-        influyó profundamente en la dirección creativa y narrativa de las películas que le siguieron.
-      </p>
-      <div class="grafico">
-        <iframe title="Recaudación de las películas de DC" aria-label="Scatter Plot" id="datawrapper-chart-zbshC" src="https://datawrapper.dwcdn.net/zbshC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="389" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-        </script>
-      </div>
-    </div>
-  </div>
   
   <footer>
     <div class="footer-content">
@@ -290,6 +232,7 @@
   #batman-container {
     width: 100vw;
     height: 58vh;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,41 +280,9 @@
       100% { transform: translate(0%, -5%); } 
   }
 
-  
-
-  #intro {
-    display: flex;
-    flex-direction: column;
-  }
-
   .heading {
     margin-left: 30px;
   }
-
-  .contenido {
-    display: flex;
-  }
-
-  .imagenes {
-    display: flex;
-    margin-left: 30px;
-    height: 100%;
-    width: 50%;
-  }
-
-  .imagenes img {
-    width: 230px; 
-    height: 350px;
-    margin-right: 10px; 
-  }
-
-  .texto {
-    margin-left: 30px;
-    margin-right: 30px;
-    align-self: center; 
-    text-align: justify;
-  }
-
 
   #timeline ul li.yellow-box .box .title {
     background-color: #BC823A;
@@ -529,9 +440,32 @@
       border-color: transparent transparent transparent #86959C;
   }
 
-  #datawrapper-chart-RTged, #datawrapper-chart-zbshC {
-    background-color: white; /* Cambia esto al color de fondo deseado */
+ 
+  .dialogo-bruce{
+    position: relative;
+    width: 100%;  /* Ajusta el ancho según sea necesario */
+    height: 700px; /* Ajusta la altura según sea necesario */
+    margin-top: 4%;
   }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 100px;   
+    left: 90px;   /* Ajusta la posición según sea necesario */
+    width: 550px; /* Ajusta el tamaño según sea necesario */
+    height: 300px; /* Ajusta el tamaño según sea necesario */
+    z-index: 2;   /* Asegura que esta imagen esté por encima de la de fondo */
+  }
+
 
   footer {
     background-color: #1F4389;
