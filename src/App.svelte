@@ -210,7 +210,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 999;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 1s;
