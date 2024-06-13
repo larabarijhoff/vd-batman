@@ -233,9 +233,40 @@
     margin-left: 30px;
   }
 
-  #timeline ul li.yellow-box .box .title {
-    background-color: #BC823A;
+  /* Estilos para el scroller */
+  .foreground_container {
+    pointer-events: none;
+    /* padding-left: 50%; */
   }
+  .step_foreground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 1px solid rgba(0, 0, 0, 0.4); */
+    color: white;
+    padding: 1em;
+    margin: 0 0 2em 0;
+  }
+  .epi_foreground {
+    padding: 20px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+  }
+  .epi_foreground p {
+    color: #000;
+  }
+  .image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .image_container img {
+    width: 950px;
+  }
+
   #timeline ul li.blue-box .box .title{
     background-color: #1F4389;
   }
