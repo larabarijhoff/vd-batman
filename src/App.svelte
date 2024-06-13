@@ -1,5 +1,7 @@
 <script>
-  import { onMount} from "svelte";
+  import Scroller from "@sveltejs/svelte-scroller";
+  import {onMount} from "svelte";
+  import DebugScroller from "./components/DebugScroller.svelte";
     
     let visible = false;
 
@@ -8,6 +10,23 @@
         visible = true;
       }, 5000); // 3000 ms = 3 segundos
   });
+  
+  /* Variables para el scroller1 - top comics */
+  let count
+  let index
+  let offset
+  let progress
+  let top = 0.1
+  let threshold = 0.5
+  let bottom = 0.9
+
+  /* Charts */
+  let chartsTopComics = {
+    0: "top_comics_01.png",
+    1: "top_comics_02.png",
+    2: "top_comics_03.png",
+    3: "top_comics_04.png",
+  }
 </script>
 
   
@@ -40,7 +59,50 @@
     
   </div>
 
-  
+  <!-- Primer scroller top comics-->
+  <Scroller
+    top={top}
+    threshold={threshold}
+    bottom={bottom}
+    bind:count={count}
+    bind:index={index}
+    bind:offset={offset}
+    bind:progress={progress}
+  >
+    <div slot="background" class="image_container">
+      <img src="/images/graphs/{chartsTopComics[index]}" alt="chart {index}" class="charts"/>
+    </div>
+    <div slot="foreground" class="foreground_container">
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>Los tres cómics más vendidos de Batman</p>
+        </div>
+      </section>
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>
+            The Dark Knight Returns una de las novelas gráficas más vendidas de todos los tiempos. Revolucionó a Batman 
+            como un personaje oscuro y complejo, diferente al Batman más ligero de décadas anteriores. 
+          </p>
+        </div>
+      </section>
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>
+            The Killing Joke es una novela gráfica famosa por su profunda exploración del Joker y su relación con Batman.
+          </p>
+        </div>
+      </section>
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>
+            The Long Halloween es aclamada por su narrativa compleja y su exploración de los primeros años de Batman 
+            como detective y aliado de Harvey Dent y Jim Gordon.
+          </p>
+        </div>
+      </section>
+    </div>
+  </Scroller>
 
   <div class="linea">
     <section id="timeline">
