@@ -133,6 +133,7 @@
   p{
     color: #fff;
     font-family: 'Comic Neue', sans-serif;
+    font-size: 18px;
   }
   h3{
     font-family: 'Bebas Neue', sans-serif;
