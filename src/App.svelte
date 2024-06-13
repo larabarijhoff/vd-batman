@@ -55,7 +55,7 @@
   
   <header class:visible={visible}>
     <div id="logo">
-      <img src="./public/images/iconos/cubo.svg" alt="logo de la empresa">
+      <img src="/images/iconos/cubo.svg" alt="logo de la empresa">
     </div>
     <h1>DataGeek</h1>
   </header>
