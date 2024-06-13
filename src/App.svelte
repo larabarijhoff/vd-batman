@@ -11,7 +11,7 @@
     }, 5000); // 3000 ms = 3 segundos
   });
   
-  /* Variables para el scroller1 - top comics */
+  /* Variables para el scroller 1 - top comics */
   let count
   let index
   let offset
@@ -20,12 +20,27 @@
   let threshold = 0.5
   let bottom = 0.9
 
+  /* Variables para el scroller 2 - recaudacion pelis */
+  let count2
+  let index2
+  let offset2
+  let progress2
+  let top2 = 0.1
+  let threshold2 = 0.5
+  let bottom2 = 0.9
+
   /* Charts */
-  let chartsTopComics = {
+  let ventasTopComics = {
     0: "top_comics_01.png",
     1: "top_comics_02.png",
     2: "top_comics_03.png",
     3: "top_comics_04.png",
+  }
+  let recaudacionPeliculas = {
+    0: "recaudacion_pelis_01.png",
+    1: "recaudacion_pelis_02.png",
+    2: "recaudacion_pelis_03.png",
+    3: "recaudacion_pelis_04.png",
   }
 </script>
 
@@ -94,7 +109,7 @@
     bind:progress={progress}
   >
     <div slot="background" class="image_container">
-      <img src="/images/graphs/{chartsTopComics[index]}" alt="chart {index}" class="charts"/>
+      <img src="/images/graphs/{ventasTopComics[index]}" alt="chart {index}" class="charts"/>
     </div>
     <div slot="foreground" class="foreground_container">
       <section class="step_foreground">
@@ -122,6 +137,51 @@
           <p>
             The Long Halloween es aclamada por su narrativa compleja y su exploración de los primeros años de Batman 
             como detective y aliado de Harvey Dent y Jim Gordon.
+          </p>
+        </div>
+      </section>
+    </div>
+  </Scroller>
+
+  <!-- Segundo scroller recaudacion pelis-->
+  <Scroller
+    top={top2}
+    threshold={threshold2}
+    bottom={bottom2}
+    bind:count={count2}
+    bind:index={index2}
+    bind:offset={offset2}
+    bind:progress={progress2}
+  >
+    <div slot="background" class="image_container">
+      <img src="/images/graphs/{recaudacionPeliculas[index2]}" alt="chart {index2}" class="charts"/>
+    </div>
+    <div slot="foreground" class="foreground_container">
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>Recaudación de las películas de Batman en millones de dólares</p>
+        </div>
+      </section>
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>
+            Las películas de Tim Burton introdujeron al personaje a una audiencia más amplia que la de los cómics, 
+            aumentando su popularidad globalmente.
+          </p>
+        </div>
+      </section>
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>
+            La trilogía del Caballero de la Noche de Christopher Nolan compartió un enfoque más oscuro y profundo sobre el personaje
+          </p>
+        </div>
+      </section>
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>
+            The Batman, dirigida por Matt Reeves, ofreció una interpretación centrada en las 
+            habilidades detectivescas de Batman, continuando con la atmósfera oscura tan arraigada al personaje.
           </p>
         </div>
       </section>
