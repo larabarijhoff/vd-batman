@@ -46,39 +46,15 @@
     <section id="timeline">
         <h2 class="heading">Timeline de los eventos</h2>
         <ul>
-            <li class="yellow-box">
+        <li class="blue-box">
                 <i></i>
                 <div class="box">
-                  <h3 class="title"><span class="year">1988</span>Asesinato de los Wayne</h3>
-                  <p>
-                    Los padres de Bruce Wayne son asesinados por un ladrón en un callejón. 
-                    Este evento traumático da inicio a su obsesión con la justicia y la lucha contra el crimen en Gotham City.
-                  </p>
-                  <button>Ver Comics</button>
-                </div>
-            </li>
-
-            <li class="yellow-box">
-              <i></i>
-              <div class="box">
-                <h3 class="title"><span class="year">1996</span>Desaparición y entrenamiento</h3>
-                <p>
-                  Bruce Wayne viaja por el mundo, aprendiendo sobre la criminalidad. 
-                  Es entrenado por Ra's al Ghul y Henri Ducard en la Liga de las Sombras, hasta
-                  que Bruce se niega a ejecutar a un criminal por lo que decide destruir el templo de la Liga
-                </p>
-                <button>Ver Comics</button>
-              </div>
-          </li>
-
-          <li class="yellow-box">
-            <i></i>
-            <div class="box">
-              <h3 class="title"><span class="year">2004</span>Regreso a Gotham como Batman</h3>
-              <p>
-                Bruce regresa a Gotham y comienza a desarrollar su equipo de Batman.
-                Aparece como Batman por primera vez interrumpiendo un envío de drogas de Carmine Falcone. Posteriormente, se enfreta
-                al Espantapájaros y a Ra's al Ghul. Finalmente, una carta del Joker sugiere la llegada de un nuevo villano a Gotham.
+            <h3 class="title"><span class="year">2005</span>Batman Begins</h3>
+            <p style="font-family: 'Comic Neue', sans-serif;">
+              Destaca por su exploración profunda de temas como el miedo, la justicia y la identidad.
+              La película revitaliza el origen de Batman, mostrando la transformación de Bruce Wayne en el Caballero Oscuro.
+              Se explora de manera detallada la lucha interna y motivaciones de Bruce Wayne. 
+              Esta película coincide con la narrativa de cómics famosos como "Batman: Year One", "The Man Who Falls" y "The Long Halloween".
               </p>
               <button>Ver Comics</button>
             </div>
@@ -87,12 +63,12 @@
           <li class="blue-box">
             <i></i>
             <div class="box">
-              <h3 class="title"><span class="year">2006</span>Aparicón del Joker</h3>
-              <p>
-                El Joker comienza una serie de robos y actos de terrorismo en Gotham, 
-                desafiando la autoridad de la mafia y la policía. Batman se alía al fiscal de distrito Harvey Dent.
-                El Joker amenaza con matar a personas cada día hasta que Batman revele su identidad. 
-                Harvey Dent se declara como Batman para proteger a Bruce.
+            <h3 class="title"><span class="year">2008</span>The Dark Knight</h3>
+            <p style="font-family: 'Comic Neue', sans-serif;">
+              Explora temas de caos, moralidad y dualidad. La película profundiza en la lucha de Batman contra el Joker, 
+              un agente del caos que desafía sus límites y principios. La relación entre Batman y 
+              el Joker resalta la delgada línea entre el orden y la anarquía, coincidiendo con la 
+              narrativa de cómics como "The Killing Joke".
               </p>
               <button>Ver Comics</button>
             </div>
@@ -101,38 +77,12 @@
           <li class="blue-box">
             <i></i>
             <div class="box">
-              <h3 class="title"><span class="year">2007</span>Lucha contra Joker y Dos Caras</h3>
-              <p>
-                  Explosivos del Joker matan a Rachel Dawes y dejan a Harvey desfigurado. Se convierte en Dos Caras 
-                  y comienza una vendetta personal contra aquellos que considera responsables de la muerte de Rachel.
-                  Batman captura al Joker y enfrenta a Dos Caras, resultando en la muerte de éste último.
-                  Batman asume la culpa de los crímenes de Dos Caras y se convierte en un fugitivo.
-              </p>
-              <button>Ver Comics</button>
-            </div>
-          </li>
-
-          <li class="gray-box">
-            <i></i>
-            <div class="box">
-              <h3 class="title"><span class="year">2015</span>Lucha contra Bane</h3>
-              <p>
-                Gotham ha disfrutado de una relativa paz gracias a la Ley Dent de tolerancia cero a los criminales, y Bruce Wayne
-                se mantiene oculto en su mansión. Bane aparece en Gotham, llevando a cabo una serie de ataques y liberando a los prisioneros de Blackgate.
-                Batman regresa y tiene su primera confrontación con Bane, resultando gravemente malherido. Tras su recuperación, Batman, derrota a Bane y salva
-                a Gotham de una explosión nuclear pero a costa de su propia vida.
-              </p>
-              <button>Ver Comics</button>
-            </div>
-          </li>
-
-          <li class="gray-box">
-            <i></i>
-            <div class="box">
-              <h3 class="title"><span class="year">2016</span>Bruce encuentra la paz</h3>
-              <p>
-                Bruce, con Batman supuestamente muerto, deja a Gotham y se retira a una vida tranquila 
-                y anónima en Italia junto con Selina Kyle, Catwoman.
+            <h3 class="title"><span class="year">2012</span>The Dark Knight Rises</h3>
+            <p style="font-family: 'Comic Neue', sans-serif;">
+              The Dark Knight Rises aborda temas de redención, sacrificio y resurgimiento. 
+              La película muestra a Bruce Wayne enfrentando sus miedos y luchando por la salvación de Gotham. 
+              La presencia de Bane y Talia al Ghul conecta con la serie de cómics "Knightfall" y 
+              "No Man’s Land", destacando la perseverancia de Batman ante desafíos extremos.
               </p>
               <button>Ver Comics</button>
             </div>
@@ -140,7 +90,6 @@
         </ul>
     </section>
   </div>
-
 
   
   <footer>
@@ -288,10 +237,7 @@
     background-color: #BC823A;
   }
   #timeline ul li.blue-box .box .title{
-    background-color: #195664;
-  }
-  #timeline ul li.gray-box .box .title{
-      background-color: #86959C;
+    background-color: #1F4389;
   }
 
   #timeline .title {
@@ -306,7 +252,7 @@
     background-color: #fff;
     padding: 0.2rem 0.8rem;
     border-radius: 10px;
-    color: #2c3e50;
+    color: #1F4389;
     font-size: 0.9rem;
     margin: 0 0.5rem;
   }
@@ -315,25 +261,15 @@
     padding-right: 1rem;
     padding-left: 1rem;
     color: #000;
-    text-align: justify;
   }
 
   #timeline button{
-    margin: 0.5rem 0rem 1rem 1rem;
-    outline: none;
+    margin: 0.2rem 0rem 0.5rem 0.5rem;
     border: 1px solid #ddd;
-    padding: 0.5rem 1rem;
-    border-radius: 50px;
-    background: transparent;
-    transition: all 0.3s ease-in;
-    font-family: inherit;
-    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    visibility: hidden; 
   }
 
-  #timeline button:hover{
-    background-color: #E23720;
-    color: #fff;
-  }
 
   #timeline ul {
     padding: 50px 0;
@@ -345,7 +281,7 @@
     width: 7px;
     margin: 0 auto;
     padding-top: 50px;
-    background-color: #1F4389;
+    background-color: #F6B83B;
   }
 
   #timeline ul li .box {
@@ -379,21 +315,13 @@
     top: 20%;
     width: 45px;
     height: 45px;
-    background: #2c3e50;
+    background: #1F4389;
     transform: translateX(-50%);
     border-radius: 50%;
   }
-
-  #timeline ul li.yellow-box i {
-    background-color: #E6D1A4;
-  }
        
   #timeline ul li.blue-box i {
-      background-color: #C0E5E5; 
-  }
-
-  #timeline ul li.gray-box i {
-      background-color: #E1E5E4; 
+      background-color: #fff; 
   }
 
 
@@ -407,37 +335,15 @@
     border-style: solid;
   }
 
-  #timeline ul li.yellow-box:nth-child(odd) .box:before {
-      left: -15px;
-      border-width: 8px 16px 8px 0;
-      border-color: transparent #BC823A transparent transparent;
-  }
-  #timeline ul li.yellow-box:nth-child(even) .box:before {
-      right: -15px;
-      border-width: 8px 0 8px 16px;
-      border-color: transparent transparent transparent #BC823A;
-  }
-
   #timeline ul li.blue-box:nth-child(odd) .box:before {
       left: -15px;
       border-width: 8px 16px 8px 0;
-      border-color: transparent #195664 transparent transparent;
+      border-color: transparent #1F4389 transparent transparent;
   }
   #timeline ul li.blue-box:nth-child(even) .box:before {
       right: -15px;
       border-width: 8px 0 8px 16px;
-      border-color: transparent transparent transparent #195664;
-  }
-
-  #timeline ul li.gray-box:nth-child(odd) .box:before {
-      left: -15px;
-      border-width: 8px 16px 8px 0;
-      border-color: transparent #86959C transparent transparent;
-  }
-  #timeline ul li.gray-box:nth-child(even) .box:before {
-      right: -15px;
-      border-width: 8px 0 8px 16px;
-      border-color: transparent transparent transparent #86959C;
+      border-color: transparent transparent transparent #1F4389;
   }
 
  
