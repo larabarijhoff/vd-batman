@@ -54,8 +54,8 @@
   </div>
 
   <div class = "dialogo-bruce"> 
-    <img src="./public/images/batman-intro.png" alt="Presentacion Batman" class ="background">
-    <img src="./public/images/batman-intro-dialogo.svg" alt="Presentacion Batman Dialogo" class = "overlay">
+    <img src="/images/batman-intro.png" alt="Presentacion Batman" class ="background">
+    <img src="/images/batman-intro-dialogo.svg" alt="Presentacion Batman Dialogo" class = "overlay">
     
   </div>
 
