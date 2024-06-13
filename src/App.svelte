@@ -3,12 +3,12 @@
   import {onMount} from "svelte";
   import DebugScroller from "./components/DebugScroller.svelte";
     
-    let visible = false;
+  let visible = false;
 
-    onMount(() => {
-      setTimeout(() => {
-        visible = true;
-      }, 5000); // 3000 ms = 3 segundos
+  onMount(() => {
+    setTimeout(() => {
+      visible = true;
+    }, 5000); // 3000 ms = 3 segundos
   });
   
   /* Variables para el scroller1 - top comics */
@@ -106,53 +106,53 @@
 
   <div class="linea">
     <section id="timeline">
-        <h2 class="heading">Timeline de los eventos</h2>
-        <ul>
+      <h2 class="heading">Timeline de los eventos</h2>
+      <ul>
         <li class="blue-box">
-                <i></i>
-                <div class="box">
+          <i></i>
+          <div class="box">
             <h3 class="title"><span class="year">2005</span>Batman Begins</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
               Destaca por su exploración profunda de temas como el miedo, la justicia y la identidad.
               La película revitaliza el origen de Batman, mostrando la transformación de Bruce Wayne en el Caballero Oscuro.
               Se explora de manera detallada la lucha interna y motivaciones de Bruce Wayne. 
               Esta película coincide con la narrativa de cómics famosos como "Batman: Year One", "The Man Who Falls" y "The Long Halloween".
-              </p>
-              <button>Ver Comics</button>
-            </div>
-          </li>
+            </p>
+            <button>Ver Comics</button>
+          </div>
+        </li>
 
-          <li class="blue-box">
-            <i></i>
-            <div class="box">
+        <li class="blue-box">
+          <i></i>
+          <div class="box">
             <h3 class="title"><span class="year">2008</span>The Dark Knight</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
               Explora temas de caos, moralidad y dualidad. La película profundiza en la lucha de Batman contra el Joker, 
               un agente del caos que desafía sus límites y principios. La relación entre Batman y 
               el Joker resalta la delgada línea entre el orden y la anarquía, coincidiendo con la 
               narrativa de cómics como "The Killing Joke".
-              </p>
-              <button>Ver Comics</button>
-            </div>
-          </li>
-
-          <li class="blue-box">
-            <i></i>
-            <div class="box">
+            </p>
+            <button>Ver Comics</button>
+          </div>
+        </li>
+      
+        <li class="blue-box">
+          <i></i>
+          <div class="box">
             <h3 class="title"><span class="year">2012</span>The Dark Knight Rises</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
               The Dark Knight Rises aborda temas de redención, sacrificio y resurgimiento. 
               La película muestra a Bruce Wayne enfrentando sus miedos y luchando por la salvación de Gotham. 
               La presencia de Bane y Talia al Ghul conecta con la serie de cómics "Knightfall" y 
               "No Man’s Land", destacando la perseverancia de Batman ante desafíos extremos.
-              </p>
-              <button>Ver Comics</button>
-            </div>
-          </li>
-        </ul>
+            </p>
+            <button>Ver Comics</button>
+          </div>
+        </li>
+      </ul>
     </section>
   </div>
-
+      
   
   <footer>
     <div class="footer-content">
@@ -413,7 +413,7 @@
     transform: translateX(-50%);
     border-radius: 50%;
   }
-       
+
   #timeline ul li.blue-box i {
       background-color: #fff; 
   }
