@@ -59,6 +59,30 @@
     
   </div>
 
+<div class="intro-comics">
+  <p>
+    Batman es un personaje ficticio publicado por DC Comics. Éste héroe fue creado por el artista 
+    Bob Kane y el escritor Bill Finger, haciendo su primera aparición en Detective Comics #27 en 
+    mayo de 1939. A lo largo de los años, la cantidad de publicaciones de comics de Batman fue 
+    aumentando, reflejando el incremento en el interés de dicho personaje.
+  </p>
+
+  <img src="/images/batman_inicios.png" alt="batman de los comics">
+
+  <p>
+    Desde su debut, los cómics de Batman se publicaron consistentemente de manera mensual. Esto 
+    resultaba en un total de aproximadamente 12 números por año. Este patrón se mantuvo constante 
+    durante varias décadas, estableciendo a Batman como una figura regular en las estanterías de 
+    las tiendas de cómics.
+  </p>
+
+  <p>
+    En las décadas de 2000 y 2010, la cantidad de títulos de Batman tuvó un incremento impulsado 
+    por la popularidad continua del personaje y la expansión del universo de Batman en múltiples 
+    líneas narrativas y spin-offs. 
+  </p>
+</div>
+
   <!-- Primer scroller top comics-->
   <Scroller
     top={top}
@@ -294,6 +318,10 @@
 
   .heading {
     margin-left: 30px;
+  }
+
+  .intro-comics {
+    margin: 0 270px;
   }
 
   /* Estilos para el scroller */
