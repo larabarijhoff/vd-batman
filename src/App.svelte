@@ -262,9 +262,9 @@
       </div>
       <p style="font-size: 20px;">SHARE</p>
       <div class="social-media-links">
-        <img src="./images/iconos/facebook.svg" alt="Facebook">
-        <img src="./images/iconos/twitter.svg" alt="Twitter">
-        <img src="./images/iconos/whatsapp.svg" alt="Whatsapp">
+        <img src="/images/iconos/facebook.svg" alt="Facebook">
+        <img src="/images/iconos/twitter.svg" alt="Twitter">
+        <img src="/images/iconos/whatsapp.svg" alt="Whatsapp">
       </div>
       <p style="font-size: 10px; color:gray; margin-right:30px; margin-left:30px; font-family: 'Open Sans', sans-serif;">At DataGeek, 
         we are passionate about sharing interesting and relevant content about geek culture. 
