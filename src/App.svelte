@@ -41,6 +41,7 @@
     1: "recaudacion_pelis_02.png",
     2: "recaudacion_pelis_03.png",
     3: "recaudacion_pelis_04.png",
+    4: "recaudacion_pelis_05.png",
   }
 </script>
 
@@ -173,7 +174,15 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            La trilogía del Caballero de la Noche de Christopher Nolan compartió un enfoque más oscuro y profundo sobre el personaje
+            La trilogía del Caballero de la Noche de Christopher Nolan compartió un enfoque más oscuro y profundo sobre el personaje.
+          </p>
+        </div>
+      </section>
+      <section class="step_foreground">
+        <div class="epi_foreground">
+          <p>
+            Batman v Superman, dirigida por Zack Snyder, enfrentó a dos héroes icónicos en un conflicto épico, 
+            explorando temas de poder y responsabilidad.
           </p>
         </div>
       </section>
