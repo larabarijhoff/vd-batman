@@ -1,8 +1,8 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
-  import {onMount} from "svelte";
+  import { onMount } from "svelte";
   import DebugScroller from "./components/DebugScroller.svelte";
-    
+
   let visible = false;
 
   onMount(() => {
@@ -10,39 +10,61 @@
       visible = true;
     }, 5000); // 3000 ms = 3 segundos
   });
-  
+
   /* Variables para el scroller 1 - top comics */
-  let count
-  let index
-  let offset
-  let progress
-  let top = 0.1
-  let threshold = 0.5
-  let bottom = 0.9
+  let count;
+  let index;
+  let offset;
+  let progress;
+  let top = 0.1;
+  let threshold = 0.5;
+  let bottom = 0.9;
 
   /* Variables para el scroller 2 - recaudacion pelis */
-  let count2
-  let index2
-  let offset2
-  let progress2
-  let top2 = 0.1
-  let threshold2 = 0.5
-  let bottom2 = 0.9
+  let count2;
+  let index2;
+  let offset2;
+  let progress2;
+  let top2 = 0.1;
+  let threshold2 = 0.5;
+  let bottom2 = 0.9;
 
   /* Charts */
   let ventasTopComics = {
     0: "top_comics_01.png",
     1: "top_comics_02.png",
     2: "top_comics_03.png",
-    3: "top_comics_04.png",
-  }
+    3: "top_comics_04.png"
+  };
   let recaudacionPeliculas = {
     0: "recaudacion_pelis_01.png",
     1: "recaudacion_pelis_02.png",
     2: "recaudacion_pelis_03.png",
     3: "recaudacion_pelis_04.png",
-    4: "recaudacion_pelis_05.png",
-  }
+    4: "recaudacion_pelis_05.png"
+  };
+
+
+  onMount(() => {
+    const rainContainer = document.querySelector('.rain');
+
+    // Crear gotas de lluvia
+    for (let i = 0; i < 50; i++) {
+      const drop = document.createElement('div');
+      drop.classList.add('drop');
+      rainContainer.appendChild(drop);
+
+      // Posición y animación aleatoria de las gotas
+      const delay = Math.random() * 2; // Retraso aleatorio
+      const duration = Math.random() * 1 + 0.5; // Duración aleatoria
+      const size = Math.random() * 2; // Tamaño aleatorio
+
+      drop.style.animationDelay = `${delay}s`;
+      drop.style.animationDuration = `${duration}s`;
+      drop.style.width = `${size}px`;
+      drop.style.height = `${size * 10}px`;
+    }
+  });
 </script>
 
   
@@ -142,7 +164,15 @@
         </div>
       </section>
     </div>
+
   </Scroller>
+
+ 
+  <!-- HTML para representar las gotas de lluvia -->
+  <div class="contenedor">
+    <img src="/images/bat_lluvia.jpg" alt="Batman bajo la lluvia" class="bat-im">
+  </div>
+
 
   <!-- Segundo scroller recaudacion pelis-->
   <Scroller
@@ -426,6 +456,14 @@
   .image_container img {
     width: 950px;
   }
+
+  .bat-im{
+    width: 100vw;
+    height: 100vh;
+    position: center;
+  }
+
+
 
   #timeline ul li.blue-box .box .title{
     background-color: #1F4389;
