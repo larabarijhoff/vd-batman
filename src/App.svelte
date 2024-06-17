@@ -98,30 +98,29 @@
   </div>
 
   <div class="intro-comics">
+    <h2>LOS INICIOS</h2>
     <p>
-      Batman es un personaje ficticio publicado por DC Comics. Éste héroe fue creado por el artista 
-      Bob Kane y el escritor Bill Finger, haciendo su primera aparición en Detective Comics #27 en 
-      mayo de 1939. A lo largo de los años, la cantidad de publicaciones de comics de Batman fue 
-      aumentando, reflejando el incremento en el interés de dicho personaje.
-    </p>
-
-    <img src="/images/batman_inicios.png" alt="batman de los comics">
-
-    <p>
-      Desde su debut, los cómics de Batman se publicaron consistentemente de manera mensual. Esto 
-      resultaba en un total de aproximadamente 12 números por año. Este patrón se mantuvo constante 
-      durante varias décadas, estableciendo a Batman como una figura regular en las estanterías de 
-      las tiendas de cómics.
-    </p>
-
-    <p>
-      En las décadas de 2000 y 2010, la cantidad de títulos de Batman tuvó un incremento impulsado 
-      por la popularidad continua del personaje y la expansión del universo de Batman en múltiples 
-      líneas narrativas y spin-offs. 
+        Batman es un personaje ficticio publicado por DC Comics. Éste héroe fue creado por el artista 
+        Bob Kane y el escritor Bill Finger, haciendo su primera aparición en Detective Comics #27 en 
+        mayo de 1939. A lo largo de los años, la cantidad de publicaciones de comics de Batman fue 
+        aumentando, reflejando el incremento en el interés de dicho personaje.
     </p>
   </div>
-
-  <!-- Primer scroller top comics-->
+  <div class="text-image-container">
+    <div class="text-overlay">
+        <p>
+            Desde su debut, los cómics de Batman se publicaron mensualmente, sumando aproximadamente 12 números por año. 
+            Este patrón se mantuvo durante décadas, consolidando a Batman como figura regular en las tiendas de cómics.
+        </p>
+        <br>
+        <p>
+            En las décadas de 2000 y 2010, el número de títulos de Batman aumentó debido a su popularidad continua y 
+            la expansión de su universo con múltiples líneas narrativas y spin-offs.
+        </p>
+    </div>
+    <img src="images/batman-inicios.png" alt="Batman Inicios" class="image">
+</div>
+  <!-- Primer scroller top comics -->
   <Scroller
     top={top}
     threshold={threshold}
@@ -173,6 +172,14 @@
     <img src="/images/bat_lluvia.jpg" alt="Batman bajo la lluvia" class="bat-im">
   </div>
 
+
+  <div class="intro-comics">
+    <h2>DE LOS COMICS A LA PANTALLA GRANDE y más</h2>
+    <p>
+      Llegar a los cines ya fue un logro que implicó mayor diversificación y alcance a las masas, 
+      generando contenido nuevo para fanaticos fieles como para nuevos seguidores.
+    </p>
+  </div>
 
   <!-- Segundo scroller recaudacion pelis-->
   <Scroller
@@ -419,8 +426,77 @@
     margin-left: 30px;
   }
 
+  .dialogo-bruce{
+    position: relative;
+    width: 100%; 
+    height: 700px; 
+    margin-top: 4%;
+  }
+
   .intro-comics {
-    margin: 0 270px;
+    padding: 20px;
+    margin: 0 5%; /*270px seria como graf y timeline creo*/
+    text-align: left;
+}
+
+  .intro-comics h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #ffcc00;  
+  }
+
+  .intro-comics p {
+      font-family: 'Comic Neue', sans-serif;
+      font-size: 1.2em;
+      line-height: 1.5;
+      font-style: italic;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 100px;   
+    left: 90px;   /* Ajusta la posición según sea necesario */
+    width: 550px; /* Ajusta el tamaño según sea necesario */
+    height: 300px; /* Ajusta el tamaño según sea necesario */
+    z-index: 2;   /* Asegura que esta imagen esté por encima de la de fondo */
+  }
+
+  .text-image-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .text-overlay {
+    
+      position: absolute;
+      top: 25%;
+      left: 5%;
+      width: 38%;
+      z-index: 2;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  .text-overlay p {
+      margin: 0 0 10px;
+      font-size: 1.2em;
+      line-height: 1.5;
+  }
+
+  .image {
+      width: 100%;
+      display: block;
   }
 
   /* Estilos para el scroller */
@@ -573,32 +649,6 @@
       right: -15px;
       border-width: 8px 0 8px 16px;
       border-color: transparent transparent transparent #1F4389;
-  }
-
- 
-  .dialogo-bruce{
-    position: relative;
-    width: 100%;  /* Ajusta el ancho según sea necesario */
-    height: 700px; /* Ajusta la altura según sea necesario */
-    margin-top: 4%;
-  }
-
-  .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 100px;   
-    left: 90px;   /* Ajusta la posición según sea necesario */
-    width: 550px; /* Ajusta el tamaño según sea necesario */
-    height: 300px; /* Ajusta el tamaño según sea necesario */
-    z-index: 2;   /* Asegura que esta imagen esté por encima de la de fondo */
   }
 
 
