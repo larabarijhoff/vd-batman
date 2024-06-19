@@ -44,25 +44,71 @@
     4: "recaudacion_pelis_05.png"
   };
 
+  // lara intento lluvia
+
+  let canvas;
+  let ctx;
+
+  // Estructura de datos para las gotas de lluvia
+  let raindrops = [];
+
+  // Función para crear una nueva gota de lluvia
+  function createRaindrop() {
+    return {
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      speed: Math.random() * 7 + 5, // Aumentar la velocidad
+      angle: Math.random() * 0.1 - 0.05 // Inclinación de la caída
+    };
+  }
+
+  // Función para dibujar la lluvia
+  function drawRain() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = 'rgba(255,255,255,1)';  // Cambiar a blanco completo
+    ctx.strokeStyle = 'rgba(255,255,255,1)';  // Cambiar a blanco completo
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+
+    raindrops.forEach((drop) => {
+      ctx.beginPath();
+      ctx.moveTo(drop.x, drop.y);
+      ctx.lineTo(drop.x - 6, drop.y + 8); // Gotas inclinadas a 45 grados hacia la izquierda
+      ctx.stroke();
+
+      drop.y += drop.speed;
+      drop.x -= drop.speed; // Movimiento a 45 grados hacia la izquierda
+      if (drop.y > canvas.height || drop.x < 0) {
+        drop.x = Math.random() * canvas.width;
+        drop.y = Math.random() * canvas.height; // Reiniciar la posición verticalmente aleatoria
+        drop.speed = Math.random() * 7 + 5; // Restablecer velocidad
+      }
+    });
+
+    requestAnimationFrame(drawRain);
+  }
 
   onMount(() => {
-    const rainContainer = document.querySelector('.rain');
+    // Asegurarse de que el canvas se ajuste al tamaño del contenedor
+    canvas.width = canvas.clientWidth;
+    canvas.height = canvas.clientHeight;
 
-    // Crear gotas de lluvia
-    for (let i = 0; i < 50; i++) {
-      const drop = document.createElement('div');
-      drop.classList.add('drop');
-      rainContainer.appendChild(drop);
+    ctx = canvas.getContext('2d');
 
-      // Posición y animación aleatoria de las gotas
-      const delay = Math.random() * 2; // Retraso aleatorio
-      const duration = Math.random() * 1 + 0.5; // Duración aleatoria
-      const size = Math.random() * 2; // Tamaño aleatorio
+    // Crear 100 gotas de lluvia iniciales
+    for (let i = 0; i < 300; i++) {
+      raindrops.push(createRaindrop());
+    }
 
-      drop.style.animationDelay = `${delay}s`;
-      drop.style.animationDuration = `${duration}s`;
-      drop.style.width = `${size}px`;
-      drop.style.height = `${size * 10}px`;
+    // Iniciar la animación de la lluvia
+    drawRain();
+  });
+
+  // Ajustar el tamaño del canvas si la ventana cambia de tamaño
+  window.addEventListener('resize', () => {
+    if (canvas) {
+      canvas.width = canvas.clientWidth;
+      canvas.height = canvas.clientHeight;
     }
   });
 </script>
@@ -168,8 +214,9 @@
 
  
   <!-- HTML para representar las gotas de lluvia -->
-  <div class="contenedor">
+  <div class="container-lluvia">
     <img src="/images/bat_lluvia.jpg" alt="Batman bajo la lluvia" class="bat-im">
+    <canvas bind:this={canvas}></canvas>
   </div>
 
 
@@ -523,6 +570,7 @@
   .epi_foreground p {
     color: #000;
   }
+
   .image_container {
     display: flex;
     justify-content: center;
@@ -533,11 +581,35 @@
     width: 950px;
   }
 
-  .bat-im{
+  .container-lluvia {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .bat-im {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none; /* Evitar que el canvas interfiera con eventos de ratón */
+  }
+
+  /* .bat-im{
     width: 100vw;
     height: 100vh;
     position: center;
-  }
+  } */
 
 
 
