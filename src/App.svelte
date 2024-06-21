@@ -129,8 +129,8 @@
     <h1>DataGeek</h1>
   </header>
 
-  <div id="titulo" style="font-size: 40px" class:visible={visible}>
-    <h1> La trayectoria de Batman: un ícono en la cultura geek</h1>
+  <div id="titulo" style="font-size: 35px" class:visible={visible}>
+    <h1 style="margin: 5%;"> La trayectoria de Batman: un ícono en la cultura geek</h1>
   </div>
 
   <div id="batman-container">
@@ -143,7 +143,7 @@
     
   </div>
 
-  <div class="intro-comics">
+  <div class="sección-nueva">
     <h2>LOS INICIOS</h2>
     <p>
         Batman es un personaje ficticio publicado por DC Comics. Éste héroe fue creado por el artista 
@@ -220,7 +220,7 @@
   </div>
 
 
-  <div class="intro-comics">
+  <div class="sección-nueva">
     <h2>DE LOS COMICS A LA PANTALLA GRANDE y más</h2>
     <p>
       Llegar a los cines ya fue un logro que implicó mayor diversificación y alcance a las masas, 
@@ -281,6 +281,29 @@
     </div>
   </Scroller>
 
+  <div class="scroll-section">
+    <div class="scroll-container">
+        <div class="scroll-content">
+            <img src="/images/peliculas.png" alt="Imagen Ancha" class="ancha">
+            <img src="/images/peliculas.png" alt="Imagen Ancha" class="ancha">
+        </div>
+    </div>
+  </div>
+  
+
+  <div class="sección-nueva">
+    <h2>Patrón del éxito: ¿qué hace a batman tan popular?</h2>
+    <p>
+      En la información anteriormente proporcionada se observó que algunos de los comics y películas de mayor 
+      relevancia fueron “The Dark Knight Returns”, “Batman: The Killing Joke”, “Batman: The Long Halloween” y 
+      la trilogía de Christopher Nolan respectivamente. Además de la gran popularidad del director, no es 
+      coincidencia que los temas y personajes que se tocan en dicha trilogía coincidan con los comics historicamente 
+      proclamados por la crítica. Lo que sugiere que uno de los grandes atractivos de Batman, no solo como personaje, 
+      sino como ícono popular es el abanico de temas profundos, serios y oscuros que trata. ya sea en la relación 
+      con otros personajes o en su código moral.
+    </p>
+  </div>
+
   <div class="linea">
     <section id="timeline">
       <h2 class="heading">Timeline de los eventos</h2>
@@ -329,7 +352,20 @@
       </ul>
     </section>
   </div>
-      
+
+  <div class="sección-nueva">
+    <h2>El legado del caballero de la noche</h2>
+    <p>
+      Desde su debut en 1939, Batman se ha convertido en un ícono cultural, simbolizando justicia, determinación 
+      y resiliencia. Con múltiples reinterpretaciones en cómics, series de televisión, y películas, ha influenciado 
+      generaciones y ha reflejado cambios sociales y culturales. Su complejidad psicológica y su lucha contra 
+      el crimen en una ciudad corrupta han resonado profundamente con el público, cementando su estatus como uno 
+      de los superhéroes más emblemáticos de todos los tiempos.
+    </p>
+    <p style="margin-top: 5%; text-align: right;"> "Muere siendo un héroe, o vive lo suficiente para verte convertido en el villano."</p>
+    <p style="margin-bottom: 5%; text-align: right;">-Batman</p>
+
+  </div>    
   
   <footer>
     <div class="footer-content">
@@ -480,20 +516,20 @@
     margin-top: 4%;
   }
 
-  .intro-comics {
+  .sección-nueva {
     padding: 20px;
     margin: 0 5%; /*270px seria como graf y timeline creo*/
     text-align: left;
 }
 
-  .intro-comics h2 {
+  .sección-nueva h2 {
       font-family: 'Bebas Neue', sans-serif;
       font-size: 2em;
       margin-bottom: 10px;
       color: #ffcc00;  
   }
 
-  .intro-comics p {
+  .sección-nueva p {
       font-family: 'Comic Neue', sans-serif;
       font-size: 1.2em;
       line-height: 1.5;
@@ -611,6 +647,40 @@
     position: center;
   } */
 
+  .scroll-section {
+    margin-top: 5%;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+
+  .scroll-container {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      white-space: nowrap;
+  }
+
+  .scroll-content {
+      display: flex;
+      animation: scroll-horizontal 20s linear infinite;
+  }
+
+  .ancha {
+      height: 25vh; /* Ajusta la altura de la imagen según sea necesario */
+      width: auto; /* Mantiene la proporción de la imagen */
+  }
+
+  @keyframes scroll-horizontal {
+      0% {
+          transform: translateX(0);
+      }
+      100% {
+          transform: translateX(-50%); /* Mueve hasta la mitad del contenedor (una imagen completa) */
+      }
+  }
 
 
   #timeline ul li.blue-box .box .title{
