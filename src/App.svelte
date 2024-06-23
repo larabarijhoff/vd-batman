@@ -148,7 +148,7 @@
     <p>
         Batman es un personaje ficticio publicado por DC Comics. Éste héroe fue creado por el artista 
         Bob Kane y el escritor Bill Finger, haciendo su primera aparición en Detective Comics #27 en 
-        mayo de 1939. A lo largo de los años, la cantidad de publicaciones de comics de Batman fue 
+        mayo de 1939. A lo largo de los años, la cantidad de publicaciones de cómics de Batman fue 
         aumentando, reflejando el incremento en el interés de dicho personaje.
     </p>
   </div>
@@ -221,7 +221,7 @@
 
 
   <div class="sección-nueva">
-    <h2>DE LOS COMICS A LA PANTALLA GRANDE y más</h2>
+    <h2>DE LOS CÓMICS A LA PANTALLA GRANDE y más</h2>
     <p>
       Llegar a los cines ya fue un logro que implicó mayor diversificación y alcance a las masas, 
       generando contenido nuevo para fanaticos fieles como para nuevos seguidores.
@@ -307,10 +307,10 @@
   <div class="sección-nueva">
     <h2>Patrón del éxito: ¿qué hace a batman tan popular?</h2>
     <p>
-      En la información anteriormente proporcionada se observó que algunos de los comics y películas de mayor 
+      En la información anteriormente proporcionada se observó que algunos de los cómics y películas de mayor 
       relevancia fueron “The Dark Knight Returns”, “Batman: The Killing Joke”, “Batman: The Long Halloween” y 
       la trilogía de Christopher Nolan respectivamente. Además de la gran popularidad del director, no es 
-      coincidencia que los temas y personajes que se tocan en dicha trilogía coincidan con los comics historicamente 
+      coincidencia que los temas y personajes que se tocan en dicha trilogía coincidan con los cómics historicamente 
       proclamados por la crítica. Lo que sugiere que uno de los grandes atractivos de Batman, no solo como personaje, 
       sino como ícono popular es el abanico de temas profundos, serios y oscuros que trata. ya sea en la relación 
       con otros personajes o en su código moral.
@@ -330,7 +330,7 @@
               Se explora de manera detallada la lucha interna y motivaciones de Bruce Wayne. 
               Esta película coincide con la narrativa de cómics famosos como "Batman: Year One", "The Man Who Falls" y "The Long Halloween".
             </p>
-            <button>Ver Comics</button>
+            <button>Ver Cómics</button>
           </div>
         </li>
 
@@ -344,7 +344,7 @@
               el Joker resalta la delgada línea entre el orden y la anarquía, coincidiendo con la 
               narrativa de cómics como "The Killing Joke".
             </p>
-            <button>Ver Comics</button>
+            <button>Ver Cómics</button>
           </div>
         </li>
       
@@ -358,7 +358,7 @@
               La presencia de Bane y Talia al Ghul conecta con la serie de cómics "Knightfall" y 
               "No Man's Land", destacando la perseverancia de Batman ante desafíos extremos.
             </p>
-            <button>Ver Comics</button>
+            <button>Ver Cómics</button>
           </div>
         </li>
       </ul>
