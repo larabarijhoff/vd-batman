@@ -504,10 +504,6 @@
       100% { transform: translate(0%, -5%); } 
   }
 
-  .heading {
-    margin-left: 30px;
-  }
-
   .dialogo-bruce{
     position: relative;
     width: 100%; 
