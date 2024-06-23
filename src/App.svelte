@@ -306,7 +306,6 @@
 
   <div class="linea">
     <section id="timeline">
-      <h2 class="heading">Timeline de los eventos</h2>
       <ul>
         <li class="blue-box">
           <i></i>
