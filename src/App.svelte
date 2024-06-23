@@ -343,7 +343,7 @@
               The Dark Knight Rises aborda temas de redención, sacrificio y resurgimiento. 
               La película muestra a Bruce Wayne enfrentando sus miedos y luchando por la salvación de Gotham. 
               La presencia de Bane y Talia al Ghul conecta con la serie de cómics "Knightfall" y 
-              "No Man’s Land", destacando la perseverancia de Batman ante desafíos extremos.
+              "No Man's Land", destacando la perseverancia de Batman ante desafíos extremos.
             </p>
             <button>Ver Comics</button>
           </div>
