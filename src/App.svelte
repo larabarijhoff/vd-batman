@@ -290,6 +290,19 @@
     </div>
   </div>
   
+  <div class="sección-nueva">
+    <p>
+      La fama de Batman no solo proviene de sus exitosas películas, sino también de su poderosa presencia en el mundo del merchandising.
+    </p>
+    <p>
+      Según Visual Capitalist, Batman ha generado aproximadamente $21.3 mil millones en ingresos por merchandising. 
+      Esta cifra incluye una amplia gama de productos, desde juguetes y ropa hasta artículos de colección, lo que 
+      subraya la influencia significativa del merchandising en la popularidad y el reconocimiento global del personaje.
+    </p>
+    <div class="image_container">
+      <img src="/images/graphs/fuentes_recaudacion.png" alt="fuentes recaudacion"/>
+    </div>
+  </div>
 
   <div class="sección-nueva">
     <h2>Patrón del éxito: ¿qué hace a batman tan popular?</h2>
