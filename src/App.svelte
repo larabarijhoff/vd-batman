@@ -291,7 +291,7 @@
   </div>
   
   <div class="sección-nueva">
-    <p>
+    <p style="font-style: italic;">
       La fama de Batman no solo proviene de sus exitosas películas, sino también de su poderosa presencia en el mundo del merchandising.
     </p>
     <p>
@@ -374,8 +374,8 @@
       el crimen en una ciudad corrupta han resonado profundamente con el público, cementando su estatus como uno 
       de los superhéroes más emblemáticos de todos los tiempos.
     </p>
-    <p style="margin-top: 5%; text-align: right;"> "Muere siendo un héroe, o vive lo suficiente para verte convertido en el villano."</p>
-    <p style="margin-bottom: 5%; text-align: right;">-Batman</p>
+    <p style="margin-top: 5%; text-align: right; font-style: italic;"> "Muere siendo un héroe, o vive lo suficiente para verte convertido en el villano."</p>
+    <p style="margin-bottom: 5%; text-align: right; font-style: italic;">-Batman</p>
 
   </div>    
   
@@ -541,7 +541,6 @@
       font-family: 'Comic Neue', sans-serif;
       font-size: 1.2em;
       line-height: 1.5;
-      font-style: italic;
   }
 
   .background {
