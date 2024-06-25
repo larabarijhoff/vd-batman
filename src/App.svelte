@@ -307,18 +307,27 @@
   <div class="sección-nueva">
     <h2>Patrón del éxito: ¿qué hace a batman tan popular?</h2>
     <p>
-      En la información anteriormente proporcionada se observó que algunos de los cómics y películas de mayor 
+      <!-- En la información anteriormente proporcionada se observó que algunos de los cómics y películas de mayor 
       relevancia fueron “The Dark Knight Returns”, “Batman: The Killing Joke”, “Batman: The Long Halloween” y 
-      la trilogía de Christopher Nolan respectivamente. Además de la gran popularidad del director, no es 
-      coincidencia que los temas y personajes que se tocan en dicha trilogía coincidan con los cómics historicamente 
-      proclamados por la crítica. Lo que sugiere que uno de los grandes atractivos de Batman, no solo como personaje, 
-      sino como ícono popular es el abanico de temas profundos, serios y oscuros que trata. ya sea en la relación 
-      con otros personajes o en su código moral.
+      la trilogía de Christopher Nolan respectivamente. -->
+      Dentro de los cómics más populares de Batman a lo largo de los años, los mejores puntuados por los fans 
+      son “The Dark Knight Returns”, “Batman: The Killing Joke”, “Batman: The Long Halloween”. Por otro lado,
+      la trilogía del Caballero de la Noche de Christopher Nolan fue la mejor recibida por el público.
     </p>
   </div>
 
   <div class="image_container_in">
     <img src="/images/graphs/rating_comics_pelis.png" alt="chart rating"/>
+  </div>
+
+  <div class="sección-nueva">
+    <p>
+      Además de la gran popularidad del director, no es 
+      coincidencia que los temas y personajes que se tocan en dicha trilogía coincidan con los cómics historicamente 
+      proclamados por la crítica. Lo que sugiere que uno de los grandes atractivos de Batman, no solo como personaje, 
+      sino como ícono popular es el abanico de temas profundos, serios y oscuros que trata, ya sea en la relación 
+      con otros personajes o en su código moral.
+    </p>
   </div>
 
   <div class="linea">
