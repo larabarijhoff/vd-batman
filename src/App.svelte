@@ -317,6 +317,10 @@
     </p>
   </div>
 
+  <div class="image_container">
+    <img src="/images/graphs/rating_comics_pelis.png" alt="chart rating"/>
+  </div>
+
   <div class="linea">
     <section id="timeline">
       <ul>
