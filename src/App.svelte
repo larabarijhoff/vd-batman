@@ -619,7 +619,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
   }
   .image_container img {
     width: 950px;
