@@ -299,7 +299,7 @@
       Esta cifra incluye una amplia gama de productos, desde juguetes y ropa hasta artículos de colección, lo que 
       subraya la influencia significativa del merchandising en la popularidad y el reconocimiento global del personaje.
     </p>
-    <div class="image_container">
+    <div class="image_container_in">
       <img src="/images/graphs/fuentes_recaudacion.png" alt="fuentes recaudacion"/>
     </div>
   </div>
@@ -317,7 +317,7 @@
     </p>
   </div>
 
-  <div class="image_container">
+  <div class="image_container_in">
     <img src="/images/graphs/rating_comics_pelis.png" alt="chart rating"/>
   </div>
 
@@ -693,7 +693,16 @@
           transform: translateX(-50%); /* Mueve hasta la mitad del contenedor (una imagen completa) */
       }
   }
-
+  
+  .image_container_in { /* para los graficos que no son de algun scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+  }
+  .image_container_in img {
+    width: 950px;
+  }
 
   #timeline ul li.blue-box .box .title{
     background-color: #1F4389;
