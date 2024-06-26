@@ -730,20 +730,19 @@
     padding: 0.2rem 0.8rem;
     border-radius: 10px;
     color: #1F4389;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0 0.5rem;
   }
 
   #timeline p{
     padding-right: 1rem;
     padding-left: 1rem;
+    padding-top: 0.8rem;
     color: #000;
   }
 
   #timeline button{
-    margin: 0.2rem 0rem 0.5rem 0.5rem;
     border: 1px solid #ddd;
-    padding: 0.2rem 0.5rem;
     visibility: hidden; 
   }
 
@@ -779,12 +778,6 @@
   #timeline ul li:nth-child(even) .box{
     left: -500px;
   }
-  /* Esto es para hacerlo aparecer con el scroll
-  #timeline ul li .box.show {
-    transform: translateX(0%);
-    transition: all 0.5s ease-in-out;
-  }
-  */
 
   #timeline ul li i {
     position: absolute;
