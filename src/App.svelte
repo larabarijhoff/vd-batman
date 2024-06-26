@@ -188,7 +188,7 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            The Dark Knight Returns una de las novelas gráficas más vendidas de todos los tiempos. Revolucionó a Batman 
+            El Caballero de la Noche Regresa una de las novelas gráficas más vendidas de todos los tiempos. Revolucionó a Batman 
             como un personaje oscuro y complejo, diferente al Batman más ligero de décadas anteriores. 
           </p>
         </div>
@@ -196,14 +196,14 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            The Killing Joke es una novela gráfica famosa por su profunda exploración del Joker y su relación con Batman.
+            La Broma Asesina es una novela gráfica famosa por su profunda exploración del Joker y su relación con Batman.
           </p>
         </div>
       </section>
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            The Long Halloween es aclamada por su narrativa compleja y su exploración de los primeros años de Batman 
+            El Largo Halloween es aclamada por su narrativa compleja y su exploración de los primeros años de Batman 
             como detective y aliado de Harvey Dent y Jim Gordon.
           </p>
         </div>
@@ -265,7 +265,7 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            Batman v Superman, dirigida por Zack Snyder, enfrentó a dos héroes icónicos en un conflicto épico, 
+            Batman vs Superman, dirigida por Zack Snyder, enfrentó a dos héroes icónicos en un conflicto épico, 
             explorando temas de poder y responsabilidad.
           </p>
         </div>
@@ -273,7 +273,7 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            The Batman, dirigida por Matt Reeves, ofreció una interpretación centrada en las 
+            El Batman, dirigida por Matt Reeves, ofreció una interpretación centrada en las 
             habilidades detectivescas de Batman, continuando con la atmósfera oscura tan arraigada al personaje.
           </p>
         </div>
@@ -311,7 +311,7 @@
       relevancia fueron “The Dark Knight Returns”, “Batman: The Killing Joke”, “Batman: The Long Halloween” y 
       la trilogía de Christopher Nolan respectivamente. -->
       Dentro de los cómics más populares de Batman a lo largo de los años, los mejores puntuados por los fans 
-      son “The Dark Knight Returns”, “Batman: The Killing Joke”, “Batman: The Long Halloween”. Por otro lado,
+      son “El Caballero de la Noche Regresa”, “Batman: La Broma Asesina”, “Batman: La Larga Halloween”. Por otro lado,
       la trilogía del Caballero de la Noche de Christopher Nolan fue la mejor recibida por el público.
     </p>
   </div>
@@ -339,9 +339,9 @@
             <h3 class="title"><span class="year">2005</span>Batman Begins</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
               Destaca por su exploración profunda de temas como el miedo, la justicia y la identidad.
-              La película revitaliza el origen de Batman, mostrando la transformación de Bruce Wayne en el Caballero Oscuro.
+              La película revitaliza el origen de Batman, mostrando la transformación de Bruce Wayne en el Caballero de la Noche.
               Se explora de manera detallada la lucha interna y motivaciones de Bruce Wayne. 
-              Esta película coincide con la narrativa de cómics famosos como "Batman: Year One", "The Man Who Falls" y "The Long Halloween".
+              Esta película coincide con la narrativa de cómics famosos como "Batman: Año Uno", "El hombre que cae" y "La Larga Halloween".
             </p>
             <button>Ver Cómics</button>
           </div>
@@ -352,10 +352,10 @@
           <div class="box">
             <h3 class="title"><span class="year">2008</span>The Dark Knight</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
-              Explora temas de caos, moralidad y dualidad. La película profundiza en la lucha de Batman contra el Joker, 
+              Explora temas de caos, moralidad y dualidad. La película profundiza en la lucha de Batman contra el Guasón, 
               un agente del caos que desafía sus límites y principios. La relación entre Batman y 
               el Joker resalta la delgada línea entre el orden y la anarquía, coincidiendo con la 
-              narrativa de cómics como "The Killing Joke".
+              narrativa de cómics como "La Broma Asesina".
             </p>
             <button>Ver Cómics</button>
           </div>
@@ -366,10 +366,10 @@
           <div class="box">
             <h3 class="title"><span class="year">2012</span>The Dark Knight Rises</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
-              The Dark Knight Rises aborda temas de redención, sacrificio y resurgimiento. 
-              La película muestra a Bruce Wayne enfrentando sus miedos y luchando por la salvación de Gotham. 
-              La presencia de Bane y Talia al Ghul conecta con la serie de cómics "Knightfall" y 
-              "No Man's Land", destacando la perseverancia de Batman ante desafíos extremos.
+              El Caballero de la Noche Asciende aborda temas de redención, sacrificio y resurgimiento. 
+              La película muestra a Bruce Wayne enfrentando sus miedos y luchando por la salvación de Ciudad Gótica. 
+              La presencia de Bane y Talia al Ghul conecta con la serie de cómics "La caída del caballero" y 
+              "La tierra de nadie", destacando la perseverancia de Batman ante desafíos extremos.
             </p>
             <button>Ver Cómics</button>
           </div>
@@ -379,7 +379,7 @@
   </div>
 
   <div class="sección-nueva">
-    <h2>El legado del caballero de la noche</h2>
+    <h2>El legado del Caballero de la Noche</h2>
     <p>
       Desde su debut en 1939, Batman se ha convertido en un ícono cultural, simbolizando justicia, determinación 
       y resiliencia. Con múltiples reinterpretaciones en cómics, series de televisión, y películas, ha influenciado 
