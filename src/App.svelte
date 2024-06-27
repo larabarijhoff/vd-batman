@@ -330,7 +330,7 @@
         <li class="blue-box">
           <i></i>
           <div class="box">
-            <h3 class="title"><span class="year">2005</span>Batman Begins</h3>
+            <h3 class="title"><span class="year">2005</span>Batman Inicia</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
               Destaca por su exploración profunda de temas como el miedo, la justicia y la identidad.
               La película revitaliza el origen de Batman, mostrando la transformación de Bruce Wayne en el Caballero de la Noche.
@@ -344,7 +344,7 @@
         <li class="blue-box">
           <i></i>
           <div class="box">
-            <h3 class="title"><span class="year">2008</span>The Dark Knight</h3>
+            <h3 class="title"><span class="year">2008</span>El Caballero de la Noche</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
               Explora temas de caos, moralidad y dualidad. La película profundiza en la lucha de Batman contra el Guasón, 
               un agente del caos que desafía sus límites y principios. La relación entre Batman y 
@@ -358,7 +358,7 @@
         <li class="blue-box">
           <i></i>
           <div class="box">
-            <h3 class="title"><span class="year">2012</span>The Dark Knight Rises</h3>
+            <h3 class="title"><span class="year">2012</span>El Caballero de la Noche Asciende</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
               El Caballero de la Noche Asciende aborda temas de redención, sacrificio y resurgimiento. 
               La película muestra a Bruce Wayne enfrentando sus miedos y luchando por la salvación de Ciudad Gótica. 
