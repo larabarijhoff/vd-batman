@@ -270,7 +270,7 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            The Batman, dirigida por Matt Reeves, ofreció una interpretación centrada en las 
+            Batman, dirigida por Matt Reeves, ofreció una interpretación centrada en las 
             habilidades detectivescas de Batman, continuando con la atmósfera oscura tan arraigada al personaje.
           </p>
         </div>
