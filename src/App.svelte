@@ -243,9 +243,6 @@
     </div>
     <div slot="foreground" class="foreground_container">
       <section class="step_foreground">
-        <div class="epi_foreground">
-          <p>Recaudación de las películas de Batman en millones de dólares</p>
-        </div>
       </section>
       <section class="step_foreground">
         <div class="epi_foreground">
