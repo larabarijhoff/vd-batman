@@ -304,9 +304,6 @@
   <div class="sección-nueva">
     <h2>Patrón del éxito: ¿qué hace a batman tan popular?</h2>
     <p>
-      <!-- En la información anteriormente proporcionada se observó que algunos de los cómics y películas de mayor 
-      relevancia fueron “The Dark Knight Returns”, “Batman: The Killing Joke”, “Batman: The Long Halloween” y 
-      la trilogía de Christopher Nolan respectivamente. -->
       Dentro de los cómics más populares de Batman a lo largo de los años, los mejores puntuados por los fans 
       son “El Caballero de la Noche Regresa”, “Batman: La Broma Asesina”, “Batman: La Larga Halloween”. Por otro lado,
       la trilogía del Caballero de la Noche de Christopher Nolan fue la mejor recibida por el público.
