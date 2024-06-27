@@ -203,7 +203,7 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            El Largo Halloween es aclamada por su narrativa compleja y su exploración de los primeros años de Batman 
+            La Larga Halloween es aclamada por su narrativa compleja y su exploración de los primeros años de Batman 
             como detective y aliado de Harvey Dent y Jim Gordon.
           </p>
         </div>
