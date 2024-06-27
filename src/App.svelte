@@ -143,15 +143,17 @@
     
   </div>
 
-  <div class="sección-nueva">
+  <div class="sección-comic">
     <h2>LOS INICIOS</h2>
     <p style="margin-bottom: 6.5vh;">
-        Batman es un personaje ficticio publicado por DC Comics. Éste héroe fue creado por el artista 
-        Bob Kane y el escritor Bill Finger, haciendo su primera aparición en Detective Comics #27 en 
-        mayo de 1939. A lo largo de los años, la cantidad de publicaciones de cómics de Batman fue 
-        aumentando, reflejando el incremento en el interés de dicho personaje.
+      Batman es un personaje ficticio publicado por DC Comics. Éste héroe fue creado por el artista 
+      Bob Kane y el escritor Bill Finger, haciendo su primera aparición en Detective Comics #27 en 
+      mayo de 1939. A lo largo de los años, la cantidad de publicaciones de cómics de Batman fue 
+      aumentando, reflejando el incremento en el interés de dicho personaje.
     </p>
+    <div class="linea-vertical"></div>
   </div>
+  
   <div class="text-image-container">
     <div class="text-overlay">
         <p>
@@ -388,28 +390,29 @@
   
   <footer>
     <div class="footer-content">
-      <p style="font-size: 20px;">CREDITS</p>
-      <div class="credits">
-        <p>Visual Editing</p>
-        <p>Creative Director</p>
-        <p>Data Manager</p>
-      </div>
+      <p style="font-size: 20px;">CRÉDITOS</p>
+      <!-- <div class="credits">
+        <p>Editor Visual</p>
+        <p>Director Creativo</p>
+        <p>Gestor de Datos</p>
+      </div> -->
       <div class="credits-names">
         <p>Valentina Gayo</p>
         <p>Lara Barijhoff</p>
         <p>Camilo Suárez</p>
       </div>
-      <p style="font-size: 20px;">SHARE</p>
+      <p style="font-size: 20px;">COMPARTE</p>
       <div class="social-media-links">
         <img src="/images/iconos/facebook.svg" alt="Facebook">
         <img src="/images/iconos/twitter.svg" alt="Twitter">
         <img src="/images/iconos/whatsapp.svg" alt="Whatsapp">
       </div>
-      <p style="font-size: 10px; color:gray; margin-right:30px; margin-left:30px; font-family: 'Open Sans', sans-serif;">At DataGeek, 
-        we are passionate about sharing interesting and relevant content about geek culture. 
-        We strive to provide you with the best possible experience, offering high-quality articles, 
-        news, and analyses. We deeply appreciate your trust and support in our work. Our commitment is 
-        to deliver accurate and entertaining information, enriching your knowledge and enjoyment of the geek world.</p>
+      <p style="font-size: 10px; color:gray; margin-right:30px; margin-left:30px; font-family: 'Open Sans', sans-serif;">
+        En DataGeek, somos apasionados por compartir contenido interesante y relevante sobre la cultura geek. 
+        Nos esforzamos por brindarte la mejor experiencia posible, ofreciendo artículos, noticias y análisis de 
+        alta calidad. Apreciamos profundamente tu confianza y apoyo en nuestro trabajo. Nuestro compromiso es 
+        entregarte información precisa y entretenida, enriqueciendo tu conocimiento y disfrute del mundo geek.
+      </p>
       <p style="color: gray" class="copyright">&copy; 2024 DataGeek</p>
     </div>
   </footer>
@@ -530,10 +533,28 @@
     height: 700px; 
     margin-top: 4%;
   }
+  .sección-comic {
+    padding: 20px;
+    margin: 0 5%; /*270px seria como graf y timeline creo*/
+    margin-right: 40%;
+    margin-top: 4vh;
+    text-align: left;
+  }
+  .sección-comic h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #ffcc00;  
+  }
+  .sección-comic p {
+      font-family: 'Comic Neue', sans-serif;
+      font-size: 1.2em;
+      line-height: 1.5;
+  }
 
   .sección-nueva {
     padding: 20px;
-    margin: 0 5%; /*270px seria como graf y timeline creo*/
+    margin: 0 270px; /*270px seria como graf y timeline creo*/
     margin-top: 4vh;
     text-align: left;
 }
@@ -833,17 +854,20 @@
     margin-right: 10px;
     margin-bottom: 30px;
   }
+  /*
   .credits p {
     margin: 0 40px;
     display: inline-block;
     font-weight: bold;
-    letter-spacing: 4px;
+  
   }
+  */
+
   .credits-names p {
-    margin: 0 4vw;
+    margin: 0 3vw;
     display: inline-block;
-    padding-bottom: 30px; 
-    letter-spacing: 2px;
+    padding-bottom: 25px; 
+ 
     font-weight: lighter;
     color: grey;
   }
