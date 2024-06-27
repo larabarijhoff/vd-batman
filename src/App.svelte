@@ -336,7 +336,7 @@
             <h3 class="title"><span class="year">2005</span>Batman Begins</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
               Destaca por su exploración profunda de temas como el miedo, la justicia y la identidad.
-              La película revitaliza el origen de Batman, mostrando la transformación de Bruce Wayne en el Caballero Oscuro.
+              La película revitaliza el origen de Batman, mostrando la transformación de Bruce Wayne en el Caballero de la Noche.
               Se explora de manera detallada la lucha interna y motivaciones de Bruce Wayne. 
               Esta película coincide con la narrativa de cómics famosos como "Batman: Year One", "The Man Who Falls" y "The Long Halloween".
             </p>
