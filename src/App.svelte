@@ -196,7 +196,7 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            La Broma Asesina es una novela gráfica famosa por su profunda exploración del Joker y su relación con Batman.
+            La Broma Asesina es una novela gráfica famosa por su profunda exploración del Guasón y su relación con Batman.
           </p>
         </div>
       </section>
@@ -348,7 +348,7 @@
             <p style="font-family: 'Comic Neue', sans-serif;">
               Explora temas de caos, moralidad y dualidad. La película profundiza en la lucha de Batman contra el Guasón, 
               un agente del caos que desafía sus límites y principios. La relación entre Batman y 
-              el Joker resalta la delgada línea entre el orden y la anarquía, coincidiendo con la 
+              el Guasón resalta la delgada línea entre el orden y la anarquía, coincidiendo con la 
               narrativa de cómics como "La Broma Asesina".
             </p>
             <button>Ver Cómics</button>
