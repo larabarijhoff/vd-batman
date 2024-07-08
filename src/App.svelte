@@ -184,7 +184,7 @@
     <div slot="foreground" class="foreground_container">
       <section class="step_foreground">
         <div class="epi_foreground">
-          <p>Los tres cómics más vendidos de Batman</p>
+          <p>Los cinco cómics mejor puntuados de Batman</p>
         </div>
       </section>
       <section class="step_foreground">
