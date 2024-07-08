@@ -244,33 +244,33 @@
       <img src="/images/graphs/{recaudacionPeliculas[index2]}" alt="chart {index2}" class="charts"/>
     </div>
     <div slot="foreground" class="foreground_container">
-      <section class="step_foreground">
+      <section class="step_foreground2">
       </section>
-      <section class="step_foreground">
-        <div class="epi_foreground">
+      <section class="step_foreground2">
+        <div class="epi_foreground2">
           <p>
             Las películas de Tim Burton introdujeron al personaje a una audiencia más amplia que la de los cómics, 
             aumentando su popularidad globalmente.
           </p>
         </div>
       </section>
-      <section class="step_foreground">
-        <div class="epi_foreground">
+      <section class="step_foreground2">
+        <div class="epi_foreground2">
           <p>
             La trilogía del Caballero de la Noche de Christopher Nolan compartió un enfoque más oscuro y profundo sobre el personaje.
           </p>
         </div>
       </section>
-      <section class="step_foreground">
-        <div class="epi_foreground">
+      <section class="step_foreground2">
+        <div class="epi_foreground2">
           <p>
             Batman vs Superman, dirigida por Zack Snyder, enfrentó a dos héroes icónicos en un conflicto épico, 
             explorando temas de poder y responsabilidad.
           </p>
         </div>
       </section>
-      <section class="step_foreground">
-        <div class="epi_foreground">
+      <section class="step_foreground2">
+        <div class="epi_foreground2">
           <p>
             Batman, dirigida por Matt Reeves, ofreció una interpretación centrada en las 
             habilidades detectivescas de Batman, continuando con la atmósfera oscura tan arraigada al personaje.
@@ -625,7 +625,7 @@
   }
   .step_foreground {
     display: flex;
-    justify-content: center;
+    justify-content: center; /*para la caja*/
     align-items: center;
     height: 100vh;
     /* border: 1px solid rgba(0, 0, 0, 0.4); */
@@ -633,6 +633,17 @@
     padding: 1em;
     margin: 0 0 2em 0;
   }
+.step_foreground2 {
+    display: flex;
+    justify-content: right; /*para la caja*/
+    align-items: center;
+    height: 100vh;
+    /* border: 1px solid rgba(0, 0, 0, 0.4); */
+    color: white;
+    padding: 1em;
+    margin: 0 0 2em 0;
+  }
+
   .epi_foreground {
     padding: 20px;
     width: 400px;
@@ -642,6 +653,17 @@
   .epi_foreground p {
     color: #000;
   }
+
+  .epi_foreground2 {
+    padding: 20px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.462);
+    text-align: center;
+  }
+   .epi_foreground2 p {
+    color: #FFF;
+  }
+  
 
   .image_container {
     display: flex;
