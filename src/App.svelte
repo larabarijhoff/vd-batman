@@ -337,7 +337,7 @@
               Destaca por su exploración profunda de temas como el miedo, la justicia y la identidad.
               La película revitaliza el origen de Batman, mostrando la transformación de Bruce Wayne en el Caballero de la Noche.
               Se explora de manera detallada la lucha interna y motivaciones de Bruce Wayne. 
-              Esta película coincide con la narrativa de cómics famosos como "Batman: Año Uno", "El hombre que cae" y "La Larga Halloween".
+              Esta película coincide con la narrativa de cómics famosos como "Batman: Año Uno" y "El hombre que cae".
             </p>
             <button>Ver Cómics</button>
           </div>
@@ -348,10 +348,10 @@
           <div class="box">
             <h3 class="title"><span class="year">2008</span>El Caballero de la Noche</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
-              Explora temas de caos, moralidad y dualidad. La película profundiza en la lucha de Batman contra el Guasón, 
-              un agente del caos que desafía sus límites y principios. La relación entre Batman y 
+              Explora temas de caos, moralidad y dualidad. La película profundiza en la lucha de Batman contra el Guasón y la aparición
+              de Dos Caras. La relación entre Batman y 
               el Guasón resalta la delgada línea entre el orden y la anarquía, coincidiendo con la 
-              narrativa de cómics como "La Broma Asesina".
+              narrativa de cómics como "La Broma Asesina" y "La Larga Halloween".
             </p>
             <button>Ver Cómics</button>
           </div>
