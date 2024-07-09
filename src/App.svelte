@@ -41,7 +41,7 @@
     1: "recaudacion_pelis_02.png",
     2: "recaudacion_pelis_03.png",
     3: "recaudacion_pelis_04.png",
-    4: "recaudacion_pelis_05.png"
+    4: "recaudacion_pelis_05.png",
   };
 
   let canvas;
