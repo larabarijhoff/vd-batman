@@ -1,6 +1,7 @@
 # VD | DataGeek - La trayectoria de Batman: Un ícono en la cultura geek 
 
 ### Historia visual interactiva web de Batman basada en datos
+![Batman](public/images/batman-intro.png)
 ---
 
 ## Referencias: 
