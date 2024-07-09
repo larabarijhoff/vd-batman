@@ -184,7 +184,7 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            El Caballero de la Noche Regresa una de las novelas gráficas más vendidas de todos los tiempos. Revolucionó a Batman 
+            "El Caballero de la Noche Regresa" una de las novelas gráficas más vendidas de todos los tiempos. Revolucionó a Batman 
             como un personaje oscuro y complejo, diferente al Batman más ligero de décadas anteriores. 
           </p>
         </div>
@@ -192,14 +192,14 @@
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            La Broma Asesina es una novela gráfica famosa por su profunda exploración del Guasón y su relación con Batman.
+            "La Broma Asesina" es una novela gráfica famosa por su profunda exploración del Guasón y su relación con Batman.
           </p>
         </div>
       </section>
       <section class="step_foreground">
         <div class="epi_foreground">
           <p>
-            La Larga Halloween es aclamada por su narrativa compleja y su exploración de los primeros años de Batman 
+            "La Larga Halloween" es aclamada por su narrativa compleja y su exploración de los primeros años de Batman 
             como detective y aliado de Harvey Dent y Jim Gordon.
           </p>
         </div>
@@ -258,7 +258,7 @@
       <section class="step_foreground2">
         <div class="epi_foreground">
           <p>
-            Batman vs Superman, dirigida por Zack Snyder, enfrentó a dos héroes icónicos en un conflicto épico, 
+            "Batman vs Superman", dirigida por Zack Snyder, enfrentó a dos héroes icónicos en un conflicto épico, 
             explorando temas de poder y responsabilidad.
           </p>
         </div>
@@ -266,7 +266,7 @@
       <section class="step_foreground2">
         <div class="epi_foreground">
           <p>
-            Batman, dirigida por Matt Reeves, ofreció una interpretación centrada en las 
+            "Batman", dirigida por Matt Reeves, ofreció una interpretación centrada en las 
             habilidades detectivescas de Batman, continuando con la atmósfera oscura tan arraigada al personaje.
           </p>
         </div>
@@ -288,7 +288,7 @@
       La fama de Batman no solo proviene de sus exitosas películas, sino también de su poderosa presencia en el mundo del merchandising.
     </p>
     <p>
-      Según Visual Capitalist, Batman ha generado aproximadamente $21.3 mil millones en ingresos por merchandising. 
+      Según <a href="https://www.visualcapitalist.com/the-worlds-top-media-franchises-by-all-time-revenue/#google_vignette" target="_blank">Visual Capitalist</a>, Batman ha generado aproximadamente $21.3 mil millones en ingresos por merchandising. 
       Esta cifra incluye una amplia gama de productos, desde juguetes y ropa hasta artículos de colección, lo que 
       subraya la influencia significativa del merchandising en la popularidad y el reconocimiento global del personaje.
     </p>
@@ -356,9 +356,9 @@
           <div class="box">
             <h3 class="title"><span class="year">2012</span>El Caballero de la Noche Asciende</h3>
             <p style="font-family: 'Comic Neue', sans-serif;">
-              El Caballero de la Noche Asciende aborda temas de redención, sacrificio y resurgimiento. 
+              Aborda temas de redención, sacrificio y resurgimiento. 
               La película muestra a Bruce Wayne enfrentando sus miedos y luchando por la salvación de Ciudad Gótica. 
-              La presencia de Bane y Talia al Ghul conecta con la serie de cómics "La caída del caballero" y 
+              La presencia de Bane y Talia al Ghul conecta con la serie de cómics "La caída del Caballero" y 
               "La tierra de nadie", destacando la perseverancia de Batman ante desafíos extremos.
             </p>
             <button>Ver Cómics</button>
@@ -412,6 +412,11 @@
 
 
 <style>
+  a{
+    color: #F6B83B;
+    text-decoration: none;
+  }
+
   h1{
     color: #fff;
     font-family: 'Bebas Neue', sans-serif;
