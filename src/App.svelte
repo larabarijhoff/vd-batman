@@ -241,7 +241,7 @@
       <section class="step_foreground2">
       </section>
       <section class="step_foreground2">
-        <div class="epi_foreground2">
+        <div class="epi_foreground">
           <p>
             Las películas de Tim Burton introdujeron al personaje a una audiencia más amplia que la de los cómics, 
             aumentando su popularidad globalmente.
@@ -249,14 +249,14 @@
         </div>
       </section>
       <section class="step_foreground2">
-        <div class="epi_foreground2">
+        <div class="epi_foreground">
           <p>
             La trilogía del Caballero de la Noche de Christopher Nolan compartió un enfoque más oscuro y profundo sobre el personaje.
           </p>
         </div>
       </section>
       <section class="step_foreground2">
-        <div class="epi_foreground2">
+        <div class="epi_foreground">
           <p>
             Batman vs Superman, dirigida por Zack Snyder, enfrentó a dos héroes icónicos en un conflicto épico, 
             explorando temas de poder y responsabilidad.
@@ -264,7 +264,7 @@
         </div>
       </section>
       <section class="step_foreground2">
-        <div class="epi_foreground2">
+        <div class="epi_foreground">
           <p>
             Batman, dirigida por Matt Reeves, ofreció una interpretación centrada en las 
             habilidades detectivescas de Batman, continuando con la atmósfera oscura tan arraigada al personaje.
@@ -634,20 +634,10 @@
   .epi_foreground {
     padding: 20px;
     width: 400px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(102, 105, 111, 0.7);
     text-align: center;
   }
   .epi_foreground p {
-    color: #000;
-  }
-
-  .epi_foreground2 {
-    padding: 20px;
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.462);
-    text-align: center;
-  }
-   .epi_foreground2 p {
     color: #FFF;
   }
   
