@@ -452,6 +452,7 @@
   }
   header.visible {
     opacity: 1;
+    width: 100vw;
   }
 
   #logo{
