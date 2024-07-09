@@ -622,6 +622,7 @@
   /* Estilos para el scroller */
   .foreground_container {
     pointer-events: none;
+    margin-top: 50px
     /* padding-left: 50%; */
   }
   .step_foreground {
