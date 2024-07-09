@@ -44,8 +44,6 @@
     4: "recaudacion_pelis_05.png"
   };
 
-  // lara intento lluvia
-
   let canvas;
   let ctx;
 
@@ -65,19 +63,19 @@
   // Función para dibujar la lluvia
   function drawRain() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = 'rgba(255,255,255,1)';  // Cambiar a blanco completo
-    ctx.strokeStyle = 'rgba(255,255,255,1)';  // Cambiar a blanco completo
+    ctx.fillStyle = 'rgba(255,255,255,1)';
+    ctx.strokeStyle = 'rgba(255,255,255,1)';
     ctx.lineWidth = 3;
     ctx.lineCap = 'round';
 
     raindrops.forEach((drop) => {
       ctx.beginPath();
       ctx.moveTo(drop.x, drop.y);
-      ctx.lineTo(drop.x - 6, drop.y + 8); // Gotas inclinadas a 45 grados hacia la izquierda
+      ctx.lineTo(drop.x - 6, drop.y + 8);
       ctx.stroke();
 
       drop.y += drop.speed;
-      drop.x -= drop.speed; // Movimiento a 45 grados hacia la izquierda
+      drop.x -= drop.speed;
       if (drop.y > canvas.height || drop.x < 0) {
         drop.x = Math.random() * canvas.width;
         drop.y = Math.random() * canvas.height; // Reiniciar la posición verticalmente aleatoria
@@ -89,22 +87,18 @@
   }
 
   onMount(() => {
-    // Asegurarse de que el canvas se ajuste al tamaño del contenedor
     canvas.width = canvas.clientWidth;
     canvas.height = canvas.clientHeight;
 
     ctx = canvas.getContext('2d');
 
-    // Crear 100 gotas de lluvia iniciales
     for (let i = 0; i < 300; i++) {
       raindrops.push(createRaindrop());
     }
 
-    // Iniciar la animación de la lluvia
     drawRain();
   });
 
-  // Ajustar el tamaño del canvas si la ventana cambia de tamaño
   window.addEventListener('resize', () => {
     if (canvas) {
       canvas.width = canvas.clientWidth;
@@ -215,7 +209,7 @@
   </Scroller>
 
  
-  <!-- HTML para representar las gotas de lluvia -->
+  <!-- Representar las gotas de lluvia -->
   <div class="container-lluvia">
     <img src="/images/bat_lluvia.jpg" alt="Batman bajo la lluvia" class="bat-im">
     <canvas bind:this={canvas}></canvas>
@@ -391,11 +385,6 @@
   <footer>
     <div class="footer-content">
       <p style="font-size: 20px;">CRÉDITOS</p>
-      <!-- <div class="credits">
-        <p>Editor Visual</p>
-        <p>Director Creativo</p>
-        <p>Gestor de Datos</p>
-      </div> -->
       <div class="credits-names">
         <p>Valentina Gayo</p>
         <p>Lara Barijhoff</p>
@@ -413,7 +402,7 @@
         alta calidad. Apreciamos profundamente tu confianza y apoyo en nuestro trabajo. Nuestro compromiso es 
         entregarte información precisa y entretenida, enriqueciendo tu conocimiento y disfrute del mundo geek.
       </p>
-      <p style="color: gray" class="copyright">&copy; 2024 DataGeek</p>
+      <p style="color: gray" class="copyright">&copy; 2024 DataGeek | Visualización de datos</p>
     </div>
   </footer>
 
@@ -463,18 +452,18 @@
   #titulo{
     display: flex; 
     width: 100vw;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    align-items: center; 
     text-align: center;
     margin-top: 7%;
     opacity: 0;
     transform: translateX(-100%);
-    transition: transform 0s, opacity 0s; /* Transición instantánea */
+    transition: transform 0s, opacity 0s;
   }
   #titulo.visible {
     opacity: 1;
     transform: translateX(0);
-    transition: transform 0.5s, opacity 0.5s; /* Transición de 0.5 segundos */
+    transition: transform 0.5s, opacity 0.5s;
   }
 
   #batman-container {
@@ -485,7 +474,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    /* margin-top: 5%; */
   }
 
   #brave {
@@ -536,7 +524,7 @@
   }
   .sección-comic {
     padding: 20px;
-    margin: 0 5%; /*270px seria como graf y timeline creo*/
+    margin: 0 5%;
     margin-right: 40%;
     margin-top: 4vh;
     text-align: left;
@@ -555,7 +543,7 @@
 
   .sección-nueva {
     padding: 20px;
-    margin: 0 270px; /*270px seria como graf y timeline creo*/
+    margin: 0 270px;
     margin-top: 4vh;
     text-align: left;
 }
@@ -585,10 +573,10 @@
   .overlay {
     position: absolute;
     top: 100px;   
-    left: 90px;   /* Ajusta la posición según sea necesario */
-    width: 550px; /* Ajusta el tamaño según sea necesario */
-    height: 300px; /* Ajusta el tamaño según sea necesario */
-    z-index: 2;   /* Asegura que esta imagen esté por encima de la de fondo */
+    left: 90px;
+    width: 550px;
+    height: 300px;
+    z-index: 2;
   }
 
   .text-image-container {
@@ -598,7 +586,6 @@
   }
 
   .text-overlay {
-    
       position: absolute;
       top: 25%;
       left: 5%;
@@ -623,14 +610,12 @@
   .foreground_container {
     pointer-events: none;
     margin-top: 50px
-    /* padding-left: 50%; */
   }
   .step_foreground {
     display: flex;
-    justify-content: center; /*para la caja*/
+    justify-content: center;
     align-items: center;
     height: 100vh;
-    /* border: 1px solid rgba(0, 0, 0, 0.4); */
     color: white;
     padding: 1em;
     margin: 0 0 2em 0;
