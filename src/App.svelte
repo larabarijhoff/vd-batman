@@ -622,10 +622,9 @@
   }
 .step_foreground2 {
     display: flex;
-    justify-content: right; /*para la caja*/
+    justify-content: right;
     align-items: center;
     height: 100vh;
-    /* border: 1px solid rgba(0, 0, 0, 0.4); */
     color: white;
     padding: 1em;
     margin: 0 0 2em 0;
@@ -673,22 +672,16 @@
     width: 100%;
     height: 100%;
     z-index: 1;
-    pointer-events: none; /* Evitar que el canvas interfiera con eventos de ratón */
+    pointer-events: none;
   }
-
-  /* .bat-im{
-    width: 100vw;
-    height: 100vh;
-    position: center;
-  } */
 
   .scroll-section {
     margin-top: 5%;
     width: 100vw;
     overflow: hidden;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    align-items: center;
   }
 
   .scroll-container {
@@ -704,8 +697,8 @@
   }
 
   .ancha {
-      height: 25vh; /* Ajusta la altura de la imagen según sea necesario */
-      width: auto; /* Mantiene la proporción de la imagen */
+      height: 25vh;
+      width: auto;
   }
 
   @keyframes scroll-horizontal {
@@ -713,7 +706,7 @@
           transform: translateX(0);
       }
       100% {
-          transform: translateX(-50%); /* Mueve hasta la mitad del contenedor (una imagen completa) */
+          transform: translateX(-50%);
       }
   }
   
@@ -760,7 +753,6 @@
     visibility: hidden; 
   }
 
-
   #timeline ul {
     padding: 50px 0;
   }
@@ -781,7 +773,6 @@
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     border-radius: 5px;
-    /*transform: translateX(400%); para cuando quiera usar el scroll, primero desaparecerlo*/
   }
 
   /* derecha*/
@@ -808,7 +799,6 @@
       background-color: #fff; 
   }
 
-
   /*pico*/
   #timeline ul li .box:before {
     content: "";
@@ -829,7 +819,6 @@
       border-width: 8px 0 8px 16px;
       border-color: transparent transparent transparent #1F4389;
   }
-
 
   footer {
     background-color: #1F4389;
@@ -853,14 +842,6 @@
     margin-right: 10px;
     margin-bottom: 30px;
   }
-  /*
-  .credits p {
-    margin: 0 40px;
-    display: inline-block;
-    font-weight: bold;
-  
-  }
-  */
 
   .credits-names p {
     margin: 0 3vw;
