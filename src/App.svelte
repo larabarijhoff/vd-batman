@@ -1,8 +1,7 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
   import { onMount } from "svelte";
-  import DebugScroller from "./components/DebugScroller.svelte";
-
+  
   let visible = false;
 
   onMount(() => {
