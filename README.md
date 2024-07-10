@@ -13,11 +13,9 @@
 - [Página web: "IMDb"](https://www.imdb.com)
 - [Página web: "Box Office Mojo"](https://www.boxofficemojo.com/)
 
----
-
 ## Setup IDE recomendado:
 [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
-
+---
 # Documentación Extra del Código en App.svelte
 
 ## Creación y Dibujo de Gotas de Lluvia
