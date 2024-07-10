@@ -31,6 +31,6 @@
 - `createRaindrop`: Crea una nueva gota de lluvia con propiedades aleatorias.
 - `drawRain`: Dibuja las gotas de lluvia en el canvas, actualizando su posición y reciclando las gotas que salen del área visible.
 
+---
 ## Gráficos
 Para la creación de los distintos gráficos, utilizamos [Datawrapper](https://www.datawrapper.de/), una herramienta de visualización de datos. Luego de generarlos, los exportamos y los personalizamos en Figma. Esto nos permitió ajustar detalles estéticos y de diseño para asegurarnos de que los gráficos mantuvieran la estética coherente con el resto de la página web.
-Este contenido proporciona una documentación clara y detallada sobre la creación y dibujo de las 
